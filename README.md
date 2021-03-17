@@ -9,11 +9,28 @@ Hashtag assistant tool designed to reduce photo publishing time. Once you upload
 
 ### Planning results
 * Dataset
-  * todo: Provide cosidered ways to gather DS, add estimation.
+  * 1st way: Parse instagramm hashtag search results.
+    * (-) Contains a lot of unrelated data.
+    * (-) List of hashtags is limited.
+  * 2nd way: Parse parler themes.
+    * (+) Good quality content.
+    * (-) Not the same as social network.
+  * 3rd way. Parse instagram people profiles.
+    * (+) Better quality content then in case 1.
+    * (+) Can be pesonalized for customer.
+    * (-) Have to define proper list of peoples to parse.
+    * (-+) Model will be person-specific.
 * Model
-  * todo: Provide cosidered ways to predict hashtags, add estimation.
+  * Single, multi-layered perceptron. With classes probabilities as output.
+  * Backbone
+  * Feature extractor + k-means.
 * User expirience
-  * todo: Provide cosidered ways product application, add estimation.
+  * Simple offline app.
+    * (+) Easier to implement.
+    * (-) Harder to productize.
+  * Browser extension.
+    * (+) Easier to productize.
+    * (-) Harder to implement.
 
 ### Technical requirements
 #### Dataset
@@ -26,7 +43,9 @@ Hashtag assistant tool designed to reduce photo publishing time. Once you upload
 * Returns list of hashtags with probabilities.
   * ```[ { "Hashtag#1" : 0.2 }, { "Hashtag#2" : 0.3 }, { "Hashtag#3" : 0.5 } ]```
 #### Prototype
-* Can be implemented as an offline app, which provides a list of hashtags by giving an image path.
+* Can be implemented as an offline app.
+  * Provides a list of selectable hashtags by giving an image path.
+  * Have a button to copy all selected at once.
 * SG: Make a Chrome extension.
 
 ### Responsibilities
