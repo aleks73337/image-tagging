@@ -40,8 +40,8 @@ Hashtag assistant tool designed to reduce photo publishing time. Once you upload
 * Should be in `json` or `csv` format.
 #### Model
 * Gets image as a `numpy` array on input.
-* Returns list of hashtags with probabilities.
-  * ```[ { "Hashtag#1" : 0.2 }, { "Hashtag#2" : 0.3 }, { "Hashtag#3" : 0.5 } ]```
+* Returns list of hashtags.
+  * ```["Hashtag#1", "Hashtag#2", "Hashtag#3" ]```
 #### Prototype
 * Can be implemented as an offline app.
   * Provides a list of selectable hashtags by giving an image path.
