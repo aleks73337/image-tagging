@@ -23,7 +23,8 @@ Hashtag assistant tool designed to reduce photo publishing time. Once you upload
 * Model
   * Single, multi-layered perceptron. With classes probabilities as output.
   * Backbone
-  * Feature extractor + k-means.
+  * Feature extractor + k-means. (MobileNet, EfficentNet)
+  * Add detector. (Google open imgae dataset)
 * User expirience
   * Simple offline app.
     * (+) Easier to implement.
@@ -38,15 +39,23 @@ Hashtag assistant tool designed to reduce photo publishing time. Once you upload
   * Link to the image
   * List of tags in the original order.
 * Should be in `json` or `csv` format.
+* Size not less then 1000.
 #### Model
 * Gets image as a `numpy` array on input.
+* F mera not less then 0.6 (macro, micro)
 * Returns list of hashtags.
   * ```["Hashtag#1", "Hashtag#2", "Hashtag#3" ]```
+  * F measure not less then sth.
+  * Hashtag count not less then 20.
 #### Prototype
 * Can be implemented as an offline app.
   * Provides a list of selectable hashtags by giving an image path.
   * Have a button to copy all selected at once.
 * SG: Make a Chrome extension.
+
+### Goals
+* Baseline: POC
+* Deadline: Improvements, productiozation.
 
 ### Responsibilities
 * Dataset parsing - Alexey
