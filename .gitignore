@@ -1,0 +1,4 @@
+__pycache__
+Parser/Selenium
+Parser/credentials.json
+Parser/temp.json

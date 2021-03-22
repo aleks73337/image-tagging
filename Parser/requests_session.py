@@ -2,6 +2,8 @@ from time import sleep
 from base import Base
 from config import global_config
 from browser import Browser
+from person import Person
+
 import json
 
 def get_login_password():
@@ -21,7 +23,7 @@ class RequestsSession(Base):
                 self._logger.error("Current session is not logged in!")
                 raise Exception("Cant login in Instagram!")
 
-        self._skip_notifications_if_needed()
+            self._skip_notifications_if_needed()
 
     def _is_logged_in(self):
         return self.__browser.open_page('https://www.instagram.com/').find_by_css("input[name='username']") is None
@@ -48,5 +50,5 @@ class RequestsSession(Base):
         else:
             self._logger.debug("No button to skip notifications")
     
-    def request(self, url : str):
-        return self.__browser.request(url)
+    def request_person(self, login : str):
+        return Person(login, self.__browser)

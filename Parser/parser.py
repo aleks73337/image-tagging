@@ -9,7 +9,9 @@ class Parser(Base):
     def __init__(self):
         super().__init__("Parser")
         self.__browser = RequestsSession()
-        print(json.loads(self.__browser.request("https://www.instagram.com/durov/?__a=1").text))
+        data = self.__browser.request_person("timatiofficial")
+        print(data)
+        print(data.posts)
 
 
 if __name__ == '__main__':
