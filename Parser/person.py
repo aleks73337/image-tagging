@@ -1,6 +1,8 @@
+from typing import List
 from browser import Browser
 from base import Base
 from config import global_config
+from abc import ABCMeta, abstractmethod
 
 import json
 
@@ -8,19 +10,51 @@ instagram_url = 'https://www.instagram.com'
 base_query_url = f'{instagram_url}/graphql/query'
 
 
-class RequestableContent:
-    def __init__(self, page_info: dict):
-        self.update(page_info)
+class RequestableContent(Base):
+    __metaclass__ = ABCMeta
 
-    def update(self, page_info: dict):
+    def __init__(self, class_name : str, column_inside_user : str, browser : Browser, page_info: dict):
+        super().__init__(class_name)
+
+        self.__column_inside_user = column_inside_user
+        self.__browser = browser
         self.__page_info = page_info
+
+    def request_more(self, count : int):
+        """Requests more posts for current user
+        Count of posts to request can't be more than 100. If you need more - call this function several times
+
+        Returns:
+            list: List of new posts. These posts also added to self.posts list
+        """
+        if count > 100:
+            raise Exception("Count can be more than 100!")
+
+        if not self.__page_info['has_next_page']:
+            return []
+
+        response = self.__browser.request(self._generate_request_string(count))
+
+        if response.status_code != 200:
+            raise Exception(f"Invalid status code = {response.status_code}")
+
+        dict_data = json.loads(response.text)['data']['user'][self.__column_inside_user]
+
+        self.__page_info = dict_data['page_info']
+
+        return self._process_data(dict_data)
+
+    @abstractmethod
+    def _generate_request_string(self, count):
+        raise NotImplementedError("Must be overriden")
+
+    @abstractmethod
+    def _process_data(self, data : dict):
+        raise NotImplementedError("Must be overriden")
 
     @property
     def end_cursor(self):
         return self.__page_info['end_cursor']
-
-    def is_can_load_more(self):
-        return bool(self.__page_info['has_next_page'])
 
 
 class Post:
@@ -28,113 +62,66 @@ class Post:
     def __init__(self, post: dict):
         self.photo_url = post['display_url']
         self.accessibility_caption = post['accessibility_caption']
-        # can be more than one??
         self.comment = post['edge_media_to_caption']['edges'][0]['node']['text']
-        # tagged users  ??
 
     def __str__(self):
         return f"Post {self.comment} accessibility {self.accessibility_caption}"
 
 
-class Posts(RequestableContent, Base):
+class Posts(RequestableContent):
     """Class represents access to posts of specific person"""
-    def __init__(self, id: int, browser: Browser, posts: dict):
-        RequestableContent.__init__(self, posts['page_info'])
-        Base.__init__(self, 'Posts')
+    def __init__(self, id: int, browser: Browser, in_posts: dict):
+        RequestableContent.__init__(self, "Posts", "edge_owner_to_timeline_media", browser, in_posts['page_info'])
 
         self.id = id
-        self.__browser = browser
-        self.__posts = [Post(post['node']) for post in posts['edges'] if 'accessibility_caption' in post['node']]
+        self.__posts = self.__process_posts(in_posts['edges'])
 
         # hard code, probably i will need obtain it in dynamic
         self.hash = '003056d32c2554def87228bc3fd9668a'
+
+    def __process_posts(self, in_posts):
+        #self._logger.debug(in_posts)
+        return [Post(post['node']) for post in in_posts if 'accessibility_caption' in post['node']]
 
     @property
     def posts(self):
         return self.__posts
 
-    def request_more(self, count: int):
-        """Requests more posts for current user
-        Count of posts to request can't be more than 100. If you need more - call this function several times
-
-        Returns:
-            list: List of new posts. These posts also added to self.posts list
-        """
-
-        if count > 100:
-            raise Exception("Count can be more than 100!")
-
-        if not self.is_can_load_more():
-            return []
-
-        response = self.__get_request(count)
-
-        if response.status_code != 200:
-            raise Exception(f"Invalid status code = {response.status_code}")
-
-        dict_data = json.loads(response.text)['data']['user']['edge_owner_to_timeline_media']
-
-        super().update(dict_data['page_info'])
-
-        new_posts = [Post(post['node']) for post in dict_data['edges'] if 'accessibility_caption' in post['node']]
+    def _process_data(self, data: dict):
+        new_posts = self.__process_posts(data['edges'])
         self.__posts += new_posts
         return new_posts
 
-    def __get_request(self, count: int):
+    def _generate_request_string(self, count):
         variables = f'{{"id":"{self.id}","first":{count},"after":"{self.end_cursor}"}}'
         request = f'{base_query_url}/?query_hash={self.hash}&variables={variables}'
         self._logger.debug(f'Do request = {request}')
+        return request
 
-        return self.__browser.request(request)
-
-    def __str__(self):
-        return str(self.posts)
-
-class Follow(RequestableContent, Base):
+class Follow(RequestableContent):
     def __init__(self, id : int, browser : Browser, count : int):
-        RequestableContent.__init__(self,{'has_next_page': True, 'end_cursor' : None})
-        Base.__init__(self, 'Follow')
+        RequestableContent.__init__(self, "Follow", "edge_follow", browser, {'has_next_page': True, 'end_cursor' : None})
         self.id = id
-        self.__browser = browser
         self.max_count = count
         self.hash = '3dec7e2c57367ef3da3d987d89f9dbc8'
-        self.followings = []
+        self.__followings = []
 
-    def request_more(self, count : int):
-        """Requests more followings for current user
-        Count of followings to request can't be more than 100. If you need more - call this function several times
+    @property
+    def followings(self) -> List[str]:
+        """Returns list of usernames"""
+        return self.__followings
 
-        Returns:
-            list: List of new followings. These followings also added to self.followings list
-        """
-
-        if not self.is_can_load_more():
-            return []
-
-        if count > 100:
-            raise Exception("Count can be more than 100!")
-
-        response = self.__get_request(count)
-
-        if response.status_code != 200:
-            raise Exception(f"Invalid status code = {response.status_code}")
-
-        dict_data = json.loads(response.text)['data']['user']['edge_follow']
-        super().update(dict_data['page_info'])
-
-        new_followings = [edge['node']['username'] for edge in dict_data['edges'] if not edge['node']['is_private'] ]
-        self.followings += new_followings
+    def _process_data(self, data: dict):
+        new_followings = [edge['node']['username'] for edge in data['edges'] if not edge['node']['is_private']]
+        self.__followings += new_followings
         return new_followings
 
-    def __get_request(self, count: int):
+    def _generate_request_string(self, count):
         after = f',"after" :"{self.end_cursor}"' if self.end_cursor else ''
         variables = f'{{"id":"{self.id}", "include_reel":true, "fetch_mutual":false,"first":{count}{after}}}'
         request = f'{base_query_url}/?query_hash={self.hash}&variables={variables}'
-
         self._logger.debug(f'Do request = {request}')
-
-        return self.__browser.request(request)
-
+        return request
 
 class Person(Base):
     def __init__(self, login: str, browser: Browser):

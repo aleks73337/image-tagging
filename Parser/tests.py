@@ -16,6 +16,9 @@ def test_load_timaty():
 
     for post in person.posts.posts:
         assert post.photo_url is not None
+        print(post.comment)
 
+    person.follow.request_more(20)
     for user_name in person.follow.followings:
         assert user_name is not None
+        print(user_name)
