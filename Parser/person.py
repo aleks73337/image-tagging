@@ -132,8 +132,9 @@ class Person(Base):
         self.__request_base_info()
 
     def __request_base_info(self):
-        response = self.__browser.request(
-            f"{instagram_url}/{self.login}/?__a=1")
+        self._logger.debug(f"Request base info for {self.login}")
+        response = self.__browser.request(f"{instagram_url}/{self.login}/?__a=1")
+
         self._logger.debug(f"Status code {response.status_code}")
         if response.status_code != 200:
             raise Exception(f"Invalid status code = {response.status_code}")

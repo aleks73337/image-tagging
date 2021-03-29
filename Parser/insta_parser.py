@@ -8,4 +8,5 @@ class Parser(Base):
         self.__browser = RequestsSession()
 
     def request_person(self, url : str):
+        self._logger.debug(f"Requeust {url}")
         return self.__browser.request_person(url)
