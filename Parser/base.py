@@ -1,5 +1,5 @@
 import logging
-from config import global_config
+from .config import global_config
 
 logging.basicConfig()
 logging.basicConfig(level=logging.NOTSET)

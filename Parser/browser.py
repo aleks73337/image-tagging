@@ -4,8 +4,11 @@ from seleniumrequests import Chrome
 from selenium.common.exceptions import NoSuchElementException
 
 from typing import Optional
-from config import global_config
-from base import Base
+from .config import global_config
+from .base import Base
+
+import os
+cur_dir = os.path.dirname(os.path.abspath(__file__))
 
 
 class Browser(Base):
@@ -25,11 +28,11 @@ class Browser(Base):
         if not global_config.show_browser_window:
             options.add_argument('--headless')
 
-        options.add_argument("user-data-dir=./selenium")
+        options.add_argument(f"user-data-dir={cur_dir}/selenium")
         options.add_argument('--ignore-certificate-errors')
         options.add_argument(
             f'user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36')
-        browser = Chrome(options=options)
+        browser = Chrome(options=options, executable_path=os.path.join(cur_dir, 'chromedriver.exe'))
         browser.implicitly_wait(5)
         return browser
 

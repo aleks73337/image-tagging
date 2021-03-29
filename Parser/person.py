@@ -1,7 +1,7 @@
 from typing import List
-from browser import Browser
-from base import Base
-from config import global_config
+from .browser import Browser
+from .base import Base
+from .config import global_config
 from abc import ABCMeta, abstractmethod
 
 import json

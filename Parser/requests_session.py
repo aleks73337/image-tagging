@@ -1,8 +1,8 @@
 from time import sleep
-from base import Base
-from config import global_config
-from browser import Browser
-from person import Person
+from .base import Base
+from .config import global_config
+from .browser import Browser
+from .person import Person
 
 import json
 

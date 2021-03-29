@@ -1,5 +1,5 @@
-from requests_session import RequestsSession
-from base import Base
+from .requests_session import RequestsSession
+from .base import Base
 
 
 class Parser(Base):
