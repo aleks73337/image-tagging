@@ -21,14 +21,19 @@ class RequestableContent(Base):
         self.__page_info = page_info
 
     def request_more(self, count : int):
-        """Requests more posts for current user
-        Count of posts to request can't be more than 100. If you need more - call this function several times
-
+        """Requests more posts or followings for current user
+       
         Returns:
-            list: List of new posts. These posts also added to self.posts list
+            list: List of new posts or followings. These posts also added to list
         """
+        self._logger.debug(f"Request more {count}")
+
         if count > 100:
-            raise Exception("Count can be more than 100!")
+            result = []
+            while count > 100:
+                result += self.request_more(100)
+                count -= 100
+            return result + self.request_more(count)
 
         if not self.__page_info['has_next_page']:
             return []
@@ -60,10 +65,15 @@ class RequestableContent(Base):
 class Post:
     """Class represents access to specific post"""
     def __init__(self, post: dict):
-        self.photo_url = post['display_url']
-        self.accessibility_caption = post['accessibility_caption']
-        self.comment = post['edge_media_to_caption']['edges'][0]['node']['text']
-
+        self.id                     = post['id']
+        self.photo_url              = post['display_url']
+        self.accessibility_caption  = str(post['accessibility_caption'])
+        self.comment                = str(post['edge_media_to_caption']['edges'][0]['node']['text'] if len(post['edge_media_to_caption']['edges']) >= 1 else "")
+        if self.accessibility_caption:
+            text= 'May be'
+            index = self.accessibility_caption.find(text)
+            if index != -1:
+                self.accessibility_caption = self.accessibility_caption[index+len(text):]
     def __str__(self):
         return f"Post {self.comment} accessibility {self.accessibility_caption}"
 
@@ -140,7 +150,11 @@ class Person(Base):
             raise Exception(f"Invalid status code = {response.status_code}")
 
         dict = json.loads(response.text)
-        user_json = dict['graphql']['user']
+        try:
+            user_json = dict['graphql']['user']
+        except:
+            self._logger.exception(f'Dict : {dict} login {self.login}')
+            raise
 
         self.id = int(user_json['id'])
         self.is_private = user_json['is_private']
