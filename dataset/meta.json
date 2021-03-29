@@ -1,262 +1,554 @@
 [
     {
         "id": "2539637381087575276",
-        "comment": "All day, everyday \ud83d\udc8a\ud83d\udd25\u2728 #surf (\ud83d\udcf8 @if15sports )",
-        "accessibility_caption": " an image of 1 person and ocean."
+        "comment": "All day, everyday  #surf ( @if15sports )",
+        "tags": [
+            "#surf"
+        ],
+        "accessibility_caption": "an image of 1 person and ocean."
     },
     {
         "id": "2539313660476977813",
-        "comment": "Naquela vibe de sempre, surf e mais surf!!!\ud83d\udd25\ud83d\udc9b\u2728#sundayz\u00e3o (\ud83d\udcf8 @jackbarripp )",
-        "accessibility_caption": " an image of one or more people, nature and ocean."
+        "comment": "Naquela vibe de sempre, surf e mais surf!!!#sundayz\u00e3o ( @jackbarripp )",
+        "tags": [
+            "#sundayz\u00e3o"
+        ],
+        "accessibility_caption": "an image of one or more people, nature and ocean."
     },
     {
         "id": "2538585431709483310",
-        "comment": "Gratid\u00e3o Deus por tudo! Chaaaama \ud83c\udde6\ud83c\uddfa\ud83d\udd25\u2728 #surf #f\u00e9sempre (\ud83d\udcf8 @jackbarripp \ud83c\udfa5 @marcoscasteluber )",
-        "accessibility_caption": " an image of one or more people, ocean and water."
+        "comment": "Gratid\u00e3o Deus por tudo! Chaaaama  #surf #f\u00e9sempre ( @jackbarripp  @marcoscasteluber )",
+        "tags": [
+            "#surf",
+            "#f\u00e9sempre"
+        ],
+        "accessibility_caption": "an image of one or more people, ocean and water."
     },
     {
         "id": "2538158727270630293",
-        "comment": "Me dedicando p/ que isso aconte\u00e7a mais vezes \u2728\ud83d\udd25\ud83d\udc9b #surf",
-        "accessibility_caption": " an image of 2 people, people standing and outdoors."
+        "comment": "Me dedicando p/ que isso aconte\u00e7a mais vezes  #surf",
+        "tags": [
+            "#surf"
+        ],
+        "accessibility_caption": "an image of 2 people, people standing and outdoors."
     },
     {
         "id": "2537524364392675830",
-        "comment": "#tbt right moment \ud83c\udde6\ud83c\uddfa\ud83d\udd25\u2728 #vibes (\ud83d\udcf8 @juan_medina_jcm )",
-        "accessibility_caption": " an image of one or more people and ocean."
+        "comment": "#tbt right moment  #vibes ( @juan_medina_jcm )",
+        "tags": [
+            "#tbt",
+            "#vibes"
+        ],
+        "accessibility_caption": "an image of one or more people and ocean."
     },
     {
         "id": "2537116086537846637",
-        "comment": "The shoes are made out of recycled and natural materials, ultra comfortable, and classically cool. Comfortable anywhere, anytime. \ud83d\udc9a @cariuma @cariumasurf #loveit",
-        "accessibility_caption": " an image of one or more people and outdoors."
+        "comment": "The shoes are made out of recycled and natural materials, ultra comfortable, and classically cool. Comfortable anywhere, anytime.  @cariuma @cariumasurf #loveit",
+        "tags": [
+            "#loveit"
+        ],
+        "accessibility_caption": "an image of one or more people and outdoors."
     },
     {
         "id": "2535992905697798716",
-        "comment": "Surf \u00e9 igual andar de bicicleta, voc\u00ea nunca esquece \ud83d\ude45\ud83c\udffc\u200d\u2642\ufe0f\ud83d\udd25\u2728 (\ud83c\udfa5 @marcoscasteluber ) #surf",
+        "comment": "Surf \u00e9 igual andar de bicicleta, voc\u00ea nunca esquece  ( @marcoscasteluber ) #surf",
+        "tags": [
+            "#surf"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2534555149129794987",
-        "comment": "Depois de 14 dias isolado, o menino t\u00e1 cheio de energia pra testar 25 pranchas \ud83d\udd25\u2728\ud83d\udca3\ud83d\udca5 #surf",
-        "accessibility_caption": " an image of 1 person."
+        "comment": "Depois de 14 dias isolado, o menino t\u00e1 cheio de energia pra testar 25 pranchas  #surf",
+        "tags": [
+            "#surf"
+        ],
+        "accessibility_caption": "an image of 1 person."
     },
     {
         "id": "2532013791722737362",
-        "comment": "#tbt do melhor lugar do mundo \ud83c\udf0d\u2728\ud83d\udc9b",
-        "accessibility_caption": " an image of nature."
+        "comment": "#tbt do melhor lugar do mundo ",
+        "tags": [
+            "#tbt"
+        ],
+        "accessibility_caption": "an image of nature."
     },
     {
         "id": "2531739206712472998",
-        "comment": "INCR\u00cdVEL TUDO ISSO! \ud83d\udd25\ud83e\udd18\ud83d\ude1b@creaturesofleisure which one guys? #dream",
-        "accessibility_caption": " an image of 1 person and indoor."
+        "comment": "INCR\u00cdVEL TUDO ISSO! @creaturesofleisure which one guys? #dream",
+        "tags": [
+            "#dream"
+        ],
+        "accessibility_caption": "an image of 1 person and indoor."
     },
     {
         "id": "2484494039133390921",
-        "comment": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u041c\u043e\u0438\u043c \u0411\u0440\u0430\u0442\u044c\u044f\u043c \u0437\u0430 \u0445\u043e\u0440\u043e\u0448\u043e\u0435 \u0432\u0440\u0435\u043c\u044f ! \ud83d\udcaa\ud83d\udcaa\ud83d\ude4c\ud83d\ude4c\ud83d\ude4c \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u043f\u0435\u0440\u0451\u0434 \ud83d\udc4d #\u0434\u0443\u0431\u0430\u0439",
-        "accessibility_caption": " an image of 3 people, beard, people standing and outerwear."
+        "comment": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u041c\u043e\u0438\u043c \u0411\u0440\u0430\u0442\u044c\u044f\u043c \u0437\u0430 \u0445\u043e\u0440\u043e\u0448\u043e\u0435 \u0432\u0440\u0435\u043c\u044f !  \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u043f\u0435\u0440\u0451\u0434  #\u0434\u0443\u0431\u0430\u0439",
+        "tags": [
+            "#\u0434\u0443\u0431\u0430\u0439"
+        ],
+        "accessibility_caption": "an image of 3 people, beard, people standing and outerwear."
     },
     {
         "id": "2411687183562751537",
-        "comment": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u0425\u0440\u0430\u043c\u0430 \u0432 \u041c\u0438\u043d\u0441\u043a\u0435 \ud83d\ude4f \u0421\u043f\u0430\u0441\u0438 \u0413\u043e\u0441\u043f\u043e\u0434\u0438 \u0438 \u0421\u043e\u0445\u0440\u0430\u043d\u0438 \ud83d\ude4f #\u0441\u0430\u0444\u043c\u0430\u0440 #\u0413\u0443\u0446\u0435\u0440\u0438\u0435\u0432\u041c\u0421",
-        "accessibility_caption": " an image of 1 person and standing."
+        "comment": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u0425\u0440\u0430\u043c\u0430 \u0432 \u041c\u0438\u043d\u0441\u043a\u0435  \u0421\u043f\u0430\u0441\u0438 \u0413\u043e\u0441\u043f\u043e\u0434\u0438 \u0438 \u0421\u043e\u0445\u0440\u0430\u043d\u0438  #\u0441\u0430\u0444\u043c\u0430\u0440 #\u0413\u0443\u0446\u0435\u0440\u0438\u0435\u0432\u041c\u0421",
+        "tags": [
+            "#\u0441\u0430\u0444\u043c\u0430\u0440",
+            "#\u0413\u0443\u0446\u0435\u0440\u0438\u0435\u0432\u041c\u0421"
+        ],
+        "accessibility_caption": "an image of 1 person and standing."
     },
     {
         "id": "2539744205196415483",
         "comment": "The Mystery Tourbillon is the latest hyper-complication, combining two triple-axis tourbillons that turn as one, paired with incredible invisibly-set hexagon-cut diamonds.\n\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #luxurylifestyle #luxurywatches #hautehorology #inspiredbytheimpossible",
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#luxurylifestyle",
+            "#luxurywatches",
+            "#hautehorology",
+            "#inspiredbytheimpossible"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2539744188722703927",
         "comment": "The Mystery Central Tourbillons pairs the Swiss tradition of mystery watches with the cutting-edge innovation of putting twin central triple-axis tourbillons mounted back to back in the center of the watch. This version uses red rubies for the hour and minute indications and sapphires for the indices.\n\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #luxurylifestyle #luxurywatches #hautehorology #inspiredbytheimpossible",
-        "accessibility_caption": " a closeup."
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#luxurylifestyle",
+            "#luxurywatches",
+            "#hautehorology",
+            "#inspiredbytheimpossible"
+        ],
+        "accessibility_caption": "a closeup."
     },
     {
         "id": "2539744151896651380",
         "comment": "Tradition Reinvented. In addition to two disks set with hexagonal diamonds, two triple-axis tourbillons are placed back to back in the center of the watch.\n\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #luxurylifestyle #luxurywatches #hautehorology #inspiredbytheimpossible",
-        "accessibility_caption": " an image of wrist watch."
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#luxurylifestyle",
+            "#luxurywatches",
+            "#hautehorology",
+            "#inspiredbytheimpossible"
+        ],
+        "accessibility_caption": "an image of wrist watch."
     },
     {
         "id": "2539006640243828674",
         "comment": "An Offer You Can\u2019t Refuse. Look to the grand piano and see the notorious Vito Corleone as the newest addition to the Opera Godfather Minute Repeater. The Swiss Music Box combined with a triple-axis tourbillon, a minute repeater, and the Godfather himself might just be the offer you can\u2019t refuse.\u2800\n\u2800\nJacob & Co. has the exclusive rights, in partnership with Paramount Pictures, to use The Godfather logo, and the haunting melody in the amazing Opera Godfather Minute Repeater timepiece.\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #hautehorology #inspiredbytheimpossible #godfather",
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#hautehorology",
+            "#inspiredbytheimpossible",
+            "#godfather"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2539006548531041015",
         "comment": "The Opera Godfather Minute Repeater uses two hammers to strike exposed circular gongs to sound out the hours, the quarters of hours, and the minutes. In the Opera Godfather Minute Repeater, the gongs circle above the dial, visible through the large sapphire crystal and rose gold case. This voluminous case enhances the clarity, tone, and richness of the sound of the gongs.\n\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #hautehorology #inspiredbytheimpossible #godfather",
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#hautehorology",
+            "#inspiredbytheimpossible",
+            "#godfather"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2539006520372066299",
         "comment": "The Look of a Legend. The Opera Godfather Minute Repeater features the face of Marlon Brando atop the 18K gold black lacquered grand piano. This grand complication timepiece combines a minute repeater, which chimes out the hours, quarters of hours, and minutes, an on-demand two-comb, two-cylinder Swiss music box, playing the iconic theme from The Godfather, along with a triple-axis tourbillon.\n\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #hautehorology #inspiredbytheimpossible #godfather",
-        "accessibility_caption": " an image of 1 person and wrist watch."
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#hautehorology",
+            "#inspiredbytheimpossible",
+            "#godfather"
+        ],
+        "accessibility_caption": "an image of 1 person and wrist watch."
     },
     {
         "id": "2538224441697384571",
         "comment": "The design of the Jacob & Co. Epic X Rose Gold Baguette 44mm case features the iconic \"X\" shape of the sports watch. The manually wound skeletonized Jacob&Co JCAM02 movement is on display through front and back antireflective sapphire crystals. The white inner ring is made of Neoralithe, an innovative material chosen for its transparency and purity. The bezel is set with 26 baguette diamonds totaling 4.6 carats.\n\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #luxurylifestyle #luxurywatches #hautehorology #inspiredbytheimpossible",
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#luxurylifestyle",
+            "#luxurywatches",
+            "#hautehorology",
+            "#inspiredbytheimpossible"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2538224428537086168",
         "comment": "The strap of the Jacob & Co. Epic X Rose Gold Baguette is made of open-worked \u201choneycomb\u201d rubber, matching the skeleton design of the manually wound movement.  It is also available with an alligator strap with both completed by an 18k rose gold tang buckle. The skeletonized dial is framed with a white Neoralithe inner ring. The skeleton hands are made of 18k rose gold.\n\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #luxurylifestyle #luxurywatches #hautehorology #inspiredbytheimpossible",
-        "accessibility_caption": " an image of wrist watch."
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#luxurylifestyle",
+            "#luxurywatches",
+            "#hautehorology",
+            "#inspiredbytheimpossible"
+        ],
+        "accessibility_caption": "an image of wrist watch."
     },
     {
         "id": "2538224392315134885",
         "comment": "The Jacob & Co. Epic X Rose Gold Baguette is a contemporary interpretation of a traditional open-worked, or \"skeletonized\" timepiece. The goal of the watchmaker is to achieve the highest level of transparency possible, without compromising function and maintaining structural integrity.  The 18k rose gold case is finished with a bezel set with baguette diamonds.\n\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #luxurylifestyle #luxurywatches #hautehorology #inspiredbytheimpossible",
-        "accessibility_caption": " an image of 1 person and wrist watch."
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#luxurylifestyle",
+            "#luxurywatches",
+            "#hautehorology",
+            "#inspiredbytheimpossible"
+        ],
+        "accessibility_caption": "an image of 1 person and wrist watch."
     },
     {
         "id": "2537567143133470748",
         "comment": "The completed miniature sculpture of an 18K yellow gold is in three sections. That\u2019s because it needs to fit properly inside the dial of the Jacob & Co. Astronomia Tourbillon Art Dragon. Any deviation in the size or shape could damage the movement and the multiple complications in the dial display. Completing this task requires new technology and Old-World craftsmanship. First, a 3D rendering is created that allows the dragon to be sized in intricate detail. Then, a master craftsman hand-sculpts the piece into a work of wearable art.\n\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n.\u2800\n#jacobandco #jacobandcowatches #hautehorlogerie #luxurylifestyle #luxurywatches #hautehorology #inspiredbytheimpossible",
+        "tags": [
+            "#jacobandco",
+            "#jacobandcowatches",
+            "#hautehorlogerie",
+            "#luxurylifestyle",
+            "#luxurywatches",
+            "#hautehorology",
+            "#inspiredbytheimpossible"
+        ],
         "accessibility_caption": "Photo by JACOB & CO. in Jacob & Co. with @jacobandco."
     },
     {
         "id": "2537965384916320713",
         "comment": "@thekooples #sharedwardrobe #TinapourVincent",
-        "accessibility_caption": " an image of 2 people and indoor."
+        "tags": [
+            "#sharedwardrobe",
+            "#TinapourVincent"
+        ],
+        "accessibility_caption": "an image of 2 people and indoor."
     },
     {
         "id": "2526268379034855754",
         "comment": "Queria ser a pele do seu corpo... pra estar junto com voc\u00ea h\u00e1 tanto tempo... \n\n#thinkbeautifully #thebrillantskin #noblepanacea @noblepanacea",
-        "accessibility_caption": " a closeup of 1 person."
+        "tags": [
+            "#thinkbeautifully",
+            "#thebrillantskin",
+            "#noblepanacea"
+        ],
+        "accessibility_caption": "a closeup of 1 person."
     },
     {
         "id": "2517762216849000480",
         "comment": "Everything at it\u2019s right place in my @maisonvalentino #ValentinoCollezioneMilano #ValentinoGaravani #RomanStud #ad",
-        "accessibility_caption": " an image of 1 person and indoor."
+        "tags": [
+            "#ValentinoCollezioneMilano",
+            "#ValentinoGaravani",
+            "#RomanStud",
+            "#ad"
+        ],
+        "accessibility_caption": "an image of 1 person and indoor."
     },
     {
         "id": "2488085042382884300",
-        "comment": "Beautiful evening with Khalid Al Ali @khaled570 @hhumaid  and Kola  #beautiful #evening #food #goodtimes #dubai #uae\ud83c\udde6\ud83c\uddea #abusabah",
-        "accessibility_caption": " an image of 5 people, people sitting, people standing, outerwear and outdoors."
+        "comment": "Beautiful evening with Khalid Al Ali @khaled570 @hhumaid  and Kola  #beautiful #evening #food #goodtimes #dubai #uae #abusabah",
+        "tags": [
+            "#beautiful",
+            "#evening",
+            "#food",
+            "#goodtimes",
+            "#dubai",
+            "#uae",
+            "#abusabah"
+        ],
+        "accessibility_caption": "an image of 5 people, people sitting, people standing, outerwear and outdoors."
     },
     {
         "id": "2526928882619001589",
-        "comment": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0432\u0441\u0435\u043c, \u0441 \u043a\u0435\u043c \u0440\u0430\u0437\u0434\u0435\u043b\u0438\u043b\u0438 \u0441\u0446\u0435\u043d\u0443 \u0432 \u044d\u0442\u043e\u0442 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u044b\u0439 \u0432\u0435\u0447\u0435\u0440 \u2014 @panaiotov @vitoldpetrovskiy @cosmos.girls @eminofficial @trodriguezzz @ne.chaev, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0442\u0435\u043c, \u043a\u0442\u043e \u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u043b \u0432 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0438 \u043a\u043e\u043d\u0446\u0435\u0440\u0442\u0430 #\u042f\u041d\u0440\u0430\u0432\u043b\u044e\u0441\u044c\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u043c! \u0418 \u043a\u043e\u043d\u0435\u0447\u043d\u043e \u0421\u041f\u0410\u0421\u0418\u0411\u041e \u0432\u0430\u043c, \u0434\u043e\u0440\u043e\u0433\u0438\u0435 \u0437\u0440\u0438\u0442\u0435\u043b\u0438!!\n\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0430\u044f \u0434\u0430\u0442\u0430 \u0442\u043e\u0436\u0435 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u0430\u044f! \ud83d\ude09 16 \u0438\u044e\u043b\u044f \u0432 Crocus City Hall \u043a\u043e\u043d\u0446\u0435\u0440\u0442 \u0432 \u0414\u0435\u043d\u044c \u0420\u043e\u0436\u0434\u0435\u043d\u0438\u044f! \u0414\u043e \u0432\u0441\u0442\u0440\u0435\u0447\u0438.\n\nP. S. \u0410\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043a\u043e\u043d\u0446\u0435\u0440\u0442\u043e\u0432 \u2014 \u043d\u0430 \u0441\u0430\u0439\u0442\u0435 (\u0441\u0441\u044b\u043b\u043a\u0430 \u0432 \u0448\u0430\u043f\u043a\u0435 \u043f\u0440\u043e\u0444\u0438\u043b\u044f).",
-        "accessibility_caption": " an image of 3 people and people standing."
+        "comment": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0432\u0441\u0435\u043c, \u0441 \u043a\u0435\u043c \u0440\u0430\u0437\u0434\u0435\u043b\u0438\u043b\u0438 \u0441\u0446\u0435\u043d\u0443 \u0432 \u044d\u0442\u043e\u0442 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u044b\u0439 \u0432\u0435\u0447\u0435\u0440 \u2014 @panaiotov @vitoldpetrovskiy @cosmos.girls @eminofficial @trodriguezzz @ne.chaev, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0442\u0435\u043c, \u043a\u0442\u043e \u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u043b \u0432 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0438 \u043a\u043e\u043d\u0446\u0435\u0440\u0442\u0430 #\u042f\u041d\u0440\u0430\u0432\u043b\u044e\u0441\u044c\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u043c! \u0418 \u043a\u043e\u043d\u0435\u0447\u043d\u043e \u0421\u041f\u0410\u0421\u0418\u0411\u041e \u0432\u0430\u043c, \u0434\u043e\u0440\u043e\u0433\u0438\u0435 \u0437\u0440\u0438\u0442\u0435\u043b\u0438!!\n\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0430\u044f \u0434\u0430\u0442\u0430 \u0442\u043e\u0436\u0435 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u0430\u044f!  16 \u0438\u044e\u043b\u044f \u0432 Crocus City Hall \u043a\u043e\u043d\u0446\u0435\u0440\u0442 \u0432 \u0414\u0435\u043d\u044c \u0420\u043e\u0436\u0434\u0435\u043d\u0438\u044f! \u0414\u043e \u0432\u0441\u0442\u0440\u0435\u0447\u0438.\n\nP. S. \u0410\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043a\u043e\u043d\u0446\u0435\u0440\u0442\u043e\u0432 \u2014 \u043d\u0430 \u0441\u0430\u0439\u0442\u0435 (\u0441\u0441\u044b\u043b\u043a\u0430 \u0432 \u0448\u0430\u043f\u043a\u0435 \u043f\u0440\u043e\u0444\u0438\u043b\u044f).",
+        "tags": [
+            "#\u042f\u041d\u0440\u0430\u0432\u043b\u044e\u0441\u044c\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u043c"
+        ],
+        "accessibility_caption": "an image of 3 people and people standing."
     },
     {
         "id": "2497332838289738887",
-        "comment": "\u00ab \u042f \u041d\u0420\u0410\u0412\u041b\u042e\u0421\u042c \u0416\u0415\u041d\u0429\u0418\u041d\u0410\u041c\u00bb\n 8 \u041c\u0410\u0420\u0422\u0410 , \u041a\u0420\u041e\u041a\u0423\u0421 \u0421\u0418\u0422\u0418 \u0425\u041e\u041b\u041b.\n \n\u041f\u0440\u043e\u0434\u044e\u0441\u0435\u0440\u0441\u043a\u0438\u0438\u0306 \u0446\u0435\u043d\u0442\u0440 \u0413\u0440\u0438\u0433\u043e\u0440\u0438\u044f \u041b\u0435\u043f\u0441\u0430 \u0432 \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0438\u0306 \u0436\u0435\u043d\u0441\u043a\u0438\u0438\u0306 \u0434\u0435\u043d\u044c \u043f\u043e\u0440\u0430\u0434\u0443\u0435\u0442 \u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u0443\u044e \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0443 \u041c\u043e\u0441\u043a\u0432\u044b \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u044b\u043c \u043a\u043e\u043d\u0446\u0435\u0440\u0442\u043e\u043c \u00ab\u042f \u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c\u00bb.\n8-\u0433\u043e \u043c\u0430\u0440\u0442\u0430 2021-\u0433\u043e \u0433\u043e\u0434\u0430 \u043d\u0430 \u0441\u0446\u0435\u043d\u0435 \u041a\u0440\u043e\u043a\u0443\u0441 \u0421\u0438\u0442\u0438 \u0425\u043e\u043b\u043b\u0430 \u043f\u0440\u043e\u0438\u0306\u0434\u0435\u0308\u0442 \u0431\u043e\u043b\u044c\u0448\u043e\u0438\u0306 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u044b\u0438\u0306 \u043a\u043e\u043d\u0446\u0435\u0440\u0442, \u0441\u0442\u0430\u0432\u0448\u0438\u0438\u0306 \u0443\u0436\u0435 \u0435\u0436\u0435\u0433\u043e\u0434\u043d\u044b\u043c, \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u0430\u0440\u0442\u0438\u0441\u0442\u044b \u043f\u0440\u043e\u0434\u044e\u0441\u0435\u0440\u0441\u043a\u043e\u0433\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0413\u0440\u0438\u0433\u043e\u0440\u0438\u044f \u041b\u0435\u043f\u0441\u0430 \u0438\u0441\u043f\u043e\u043b\u043d\u044f\u0442 \u0441\u0432\u043e\u0438 \u0441\u0430\u043c\u044b\u0435 \u043b\u0438\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0435\u0441\u043d\u0438.\n\n\u041a\u043e\u043d\u0446\u0435\u0440\u0442, \u043d\u0430 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u0441\u043e\u0431\u0435\u0440\u0443\u0442\u0441\u044f \u0413\u0440\u0438\u0433\u043e\u0440\u0438\u0438\u0306 \u041b\u0435\u043f\u0441, \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u041f\u0430\u043d\u0430\u0438\u0306\u043e\u0442\u043e\u0432, \u0412\u0438\u0442\u043e\u043b\u044c\u0434 \u041f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0438\u0306 \u0438 \u0433\u0440\u0443\u043f\u043f\u0430 Cosmos Girls \u043d\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f, \u043a\u0430\u043a \u0438 \u043e\u0434\u043d\u0430 \u0438\u0437 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0445 \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u0438\u0306 \u0438\u0437 \u0440\u0435\u043f\u0435\u0440\u0442\u0443\u0430\u0440\u0430 \u0413\u0440\u0438\u0433\u043e\u0440\u0438\u044f \u041b\u0435\u043f\u0441\u0430 \u2014 \u00ab\u042f \u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c\u00bb.\n\n\u0412 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u0435 \u044d\u0442\u0438\u0445 \u043f\u0435\u0432\u0446\u043e\u0432 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u043c\u043d\u043e\u0433\u043e \u043f\u0435\u0441\u0435\u043d \u043e \u043b\u044e\u0431\u0432\u0438. \u0410 \u0437\u043d\u0430\u0447\u0438\u0442, \u0438\u043c \u0431\u0435\u0437 \u0442\u0440\u0443\u0434\u0430 \u0443\u0434\u0430\u0441\u0442\u0441\u044f \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u0432 \u0437\u0430\u043b\u0435 \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0443 \u0442\u0435\u043f\u043b\u0430, \u043d\u0435\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u0440\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0438. \n\u0410\u0440\u0442\u0438\u0441\u0442\u044b \u0432\u044b\u0441\u0442\u0443\u043f\u044f\u0442 \u0441 \u0441\u043e\u043b\u044c\u043d\u044b\u043c\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430\u043c\u0438 \u0438 \u0434\u0443\u044d\u0442\u0430\u043c\u0438, \u0432 \u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435 \u0438\u0441\u043f\u043e\u043b\u043d\u044f\u0442 \u043d\u043e\u0432\u044b\u0435, \u043d\u043e \u0443\u0436\u0435 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u0438.\ud83d\udd25\n\n\u00ab\u042f \u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c\u00bb - \u0437\u0430\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0438\u0306 \u043f\u043e\u0434\u0430\u0440\u043e\u043a \u044e\u043d\u044b\u043c \u0434\u0435\u0432\u0443\u0448\u043a\u0430\u043c, \u043c\u0438\u043b\u044b\u043c \u0434\u0430\u043c\u0430\u043c - \u0438\u0445 \u043c\u0430\u043c\u0430\u043c - \u0438 \u043e\u0447\u0430\u0440\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u043c \u0432\u043e \u0432\u0441\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0430 \u0438 \u0432 \u043b\u044e\u0431\u043e\u043c \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0435 \u0431\u0430\u0431\u0443\u0448\u043a\u0430\u043c. \u0412 \u043e\u0431\u0449\u0435\u043c, \u0432\u0441\u0435\u043c \u0442\u0435\u043c, \u043a\u0442\u043e \u0441\u0447\u0438\u0442\u0430\u0435\u0442 \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0438\u0306 \u0436\u0435\u043d\u0441\u043a\u0438\u0438\u0306 \u0434\u0435\u043d\u044c \u0441\u0432\u043e\u0438\u043c \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u043e\u043c!\n\n\u0421\u0430\u043c\u044b\u0435 \u0440\u043e\u043c\u0430\u043d\u0442\u0438\u0447\u043d\u044b\u0435 \u043f\u0435\u0441\u043d\u0438 \u043e\u0442 \u0432\u0438\u0434\u043d\u044b\u0445 \u043c\u0443\u0436\u0447\u0438\u043d \u2013 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0438\u0306 \u043f\u043e\u0434\u0430\u0440\u043e\u043a \u043a 8 \u041c\u0430\u0440\u0442\u0430! \ud83c\udf81\n \u041d\u0430\u0447\u0430\u043b\u043e: 19-00\n\u00ab\u041a\u0440\u043e\u043a\u0443\u0441 \u0421\u0438\u0442\u0438 \u0425\u043e\u043b\u043b\u00bb, 66-\u043a\u043c \u041c\u041a\u0410\u0414 @crocuscityhall\n@panaiotov\n@cosmos.girls\n@vitoldpetrovskiy \n \n\u0411\u0418\u041b\u0415\u0422\u042b \u0423\u0416\u0415 \u0412 \u041f\u0420\u041e\u0414\u0410\u0416\u0415 , \u0421\u0421\u042b\u041b\u041a\u0410 \u0412 \u0428\u0410\u041f\u041a\u0415 \u041f\u0420\u041e\u0424\u0418\u041b\u042f \ud83c\udfab\ud83d\udc46\ud83c\udffb \n\n#8\u043c\u0430\u0440\u0442\u0430\u043f\u043e\u0434\u0430\u0440\u043e\u043a#\u043a\u043e\u043d\u0446\u0435\u0440\u04428\u043c\u0430\u0440\u0442\u0430#\u043a\u0440\u043e\u043a\u0443\u0441\u0441\u0438\u0442\u0438\u0445\u043e\u043b\u043b#\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u0438\u0306\u043b\u0435\u043f\u0441#\u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043f\u0430\u043d\u0430\u0438\u0306\u043e\u0442\u043e\u0432#\u0432\u0438\u0442\u043e\u043b\u044c\u0434\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0438\u0306#cosmosgirls#\u043a\u043e\u043d\u0446\u0435\u0440\u0442\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u044f\u043b\u0435\u043f\u0441\u0430#\u044f\u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c\u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c#\u043f\u043e\u0434\u0430\u0440\u043e\u043a\u043d\u04308\u043c\u0430\u0440\u0442\u0430#\u043c\u043e\u0441\u043a\u0432\u0430\u0441\u0438\u0442\u0438#\u043f\u0446\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u044f\u043b\u0435\u043f\u0441\u0430#lepsshop#lepsjewelry#leps",
-        "accessibility_caption": " an image of 3 people and text that says 'CROCUS CITY HALL \u0430\u0432\u0442\u043e\u0438\u043e 8 \u043c\u0430\u0440\u0442\u0430 MY3 \u0436\u0435\u043d\u0449\u0446\u043d\u0430\u043c \u044f\u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c \u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u0438\u0443\u0447\u0430\u0441\u0442\u0438\u0438 Cosmos Girls \u0432\u0438\u0442\u043e\u043b\u044c\u0434 \u043b\u0435\u043f\u0441 \u043f\u0430\u043d\u0430\u0439\u043e\u0442\u043e\u0432 \u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0431\u0438\u043b\u0435\u0442\u044b +7(499) www.crocus-hall.ru'."
+        "comment": "\u00ab \u042f \u041d\u0420\u0410\u0412\u041b\u042e\u0421\u042c \u0416\u0415\u041d\u0429\u0418\u041d\u0410\u041c\u00bb\n 8 \u041c\u0410\u0420\u0422\u0410 , \u041a\u0420\u041e\u041a\u0423\u0421 \u0421\u0418\u0422\u0418 \u0425\u041e\u041b\u041b.\n \n\u041f\u0440\u043e\u0434\u044e\u0441\u0435\u0440\u0441\u043a\u0438\u0438\u0306 \u0446\u0435\u043d\u0442\u0440 \u0413\u0440\u0438\u0433\u043e\u0440\u0438\u044f \u041b\u0435\u043f\u0441\u0430 \u0432 \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0438\u0306 \u0436\u0435\u043d\u0441\u043a\u0438\u0438\u0306 \u0434\u0435\u043d\u044c \u043f\u043e\u0440\u0430\u0434\u0443\u0435\u0442 \u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u0443\u044e \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0443 \u041c\u043e\u0441\u043a\u0432\u044b \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u044b\u043c \u043a\u043e\u043d\u0446\u0435\u0440\u0442\u043e\u043c \u00ab\u042f \u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c\u00bb.\n8-\u0433\u043e \u043c\u0430\u0440\u0442\u0430 2021-\u0433\u043e \u0433\u043e\u0434\u0430 \u043d\u0430 \u0441\u0446\u0435\u043d\u0435 \u041a\u0440\u043e\u043a\u0443\u0441 \u0421\u0438\u0442\u0438 \u0425\u043e\u043b\u043b\u0430 \u043f\u0440\u043e\u0438\u0306\u0434\u0435\u0308\u0442 \u0431\u043e\u043b\u044c\u0448\u043e\u0438\u0306 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u044b\u0438\u0306 \u043a\u043e\u043d\u0446\u0435\u0440\u0442, \u0441\u0442\u0430\u0432\u0448\u0438\u0438\u0306 \u0443\u0436\u0435 \u0435\u0436\u0435\u0433\u043e\u0434\u043d\u044b\u043c, \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u0430\u0440\u0442\u0438\u0441\u0442\u044b \u043f\u0440\u043e\u0434\u044e\u0441\u0435\u0440\u0441\u043a\u043e\u0433\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0413\u0440\u0438\u0433\u043e\u0440\u0438\u044f \u041b\u0435\u043f\u0441\u0430 \u0438\u0441\u043f\u043e\u043b\u043d\u044f\u0442 \u0441\u0432\u043e\u0438 \u0441\u0430\u043c\u044b\u0435 \u043b\u0438\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0435\u0441\u043d\u0438.\n\n\u041a\u043e\u043d\u0446\u0435\u0440\u0442, \u043d\u0430 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u0441\u043e\u0431\u0435\u0440\u0443\u0442\u0441\u044f \u0413\u0440\u0438\u0433\u043e\u0440\u0438\u0438\u0306 \u041b\u0435\u043f\u0441, \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u041f\u0430\u043d\u0430\u0438\u0306\u043e\u0442\u043e\u0432, \u0412\u0438\u0442\u043e\u043b\u044c\u0434 \u041f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0438\u0306 \u0438 \u0433\u0440\u0443\u043f\u043f\u0430 Cosmos Girls \u043d\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f, \u043a\u0430\u043a \u0438 \u043e\u0434\u043d\u0430 \u0438\u0437 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0445 \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u0438\u0306 \u0438\u0437 \u0440\u0435\u043f\u0435\u0440\u0442\u0443\u0430\u0440\u0430 \u0413\u0440\u0438\u0433\u043e\u0440\u0438\u044f \u041b\u0435\u043f\u0441\u0430 \u2014 \u00ab\u042f \u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c\u00bb.\n\n\u0412 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u0435 \u044d\u0442\u0438\u0445 \u043f\u0435\u0432\u0446\u043e\u0432 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u043c\u043d\u043e\u0433\u043e \u043f\u0435\u0441\u0435\u043d \u043e \u043b\u044e\u0431\u0432\u0438. \u0410 \u0437\u043d\u0430\u0447\u0438\u0442, \u0438\u043c \u0431\u0435\u0437 \u0442\u0440\u0443\u0434\u0430 \u0443\u0434\u0430\u0441\u0442\u0441\u044f \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u0432 \u0437\u0430\u043b\u0435 \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0443 \u0442\u0435\u043f\u043b\u0430, \u043d\u0435\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u0440\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0438. \n\u0410\u0440\u0442\u0438\u0441\u0442\u044b \u0432\u044b\u0441\u0442\u0443\u043f\u044f\u0442 \u0441 \u0441\u043e\u043b\u044c\u043d\u044b\u043c\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430\u043c\u0438 \u0438 \u0434\u0443\u044d\u0442\u0430\u043c\u0438, \u0432 \u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435 \u0438\u0441\u043f\u043e\u043b\u043d\u044f\u0442 \u043d\u043e\u0432\u044b\u0435, \u043d\u043e \u0443\u0436\u0435 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u0438.\n\n\u00ab\u042f \u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c\u00bb - \u0437\u0430\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0438\u0306 \u043f\u043e\u0434\u0430\u0440\u043e\u043a \u044e\u043d\u044b\u043c \u0434\u0435\u0432\u0443\u0448\u043a\u0430\u043c, \u043c\u0438\u043b\u044b\u043c \u0434\u0430\u043c\u0430\u043c - \u0438\u0445 \u043c\u0430\u043c\u0430\u043c - \u0438 \u043e\u0447\u0430\u0440\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u043c \u0432\u043e \u0432\u0441\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0430 \u0438 \u0432 \u043b\u044e\u0431\u043e\u043c \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0435 \u0431\u0430\u0431\u0443\u0448\u043a\u0430\u043c. \u0412 \u043e\u0431\u0449\u0435\u043c, \u0432\u0441\u0435\u043c \u0442\u0435\u043c, \u043a\u0442\u043e \u0441\u0447\u0438\u0442\u0430\u0435\u0442 \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0438\u0306 \u0436\u0435\u043d\u0441\u043a\u0438\u0438\u0306 \u0434\u0435\u043d\u044c \u0441\u0432\u043e\u0438\u043c \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u043e\u043c!\n\n\u0421\u0430\u043c\u044b\u0435 \u0440\u043e\u043c\u0430\u043d\u0442\u0438\u0447\u043d\u044b\u0435 \u043f\u0435\u0441\u043d\u0438 \u043e\u0442 \u0432\u0438\u0434\u043d\u044b\u0445 \u043c\u0443\u0436\u0447\u0438\u043d \u2013 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0438\u0306 \u043f\u043e\u0434\u0430\u0440\u043e\u043a \u043a 8 \u041c\u0430\u0440\u0442\u0430! \n \u041d\u0430\u0447\u0430\u043b\u043e: 19-00\n\u00ab\u041a\u0440\u043e\u043a\u0443\u0441 \u0421\u0438\u0442\u0438 \u0425\u043e\u043b\u043b\u00bb, 66-\u043a\u043c \u041c\u041a\u0410\u0414 @crocuscityhall\n@panaiotov\n@cosmos.girls\n@vitoldpetrovskiy \n \n\u0411\u0418\u041b\u0415\u0422\u042b \u0423\u0416\u0415 \u0412 \u041f\u0420\u041e\u0414\u0410\u0416\u0415 , \u0421\u0421\u042b\u041b\u041a\u0410 \u0412 \u0428\u0410\u041f\u041a\u0415 \u041f\u0420\u041e\u0424\u0418\u041b\u042f  \n\n#8\u043c\u0430\u0440\u0442\u0430\u043f\u043e\u0434\u0430\u0440\u043e\u043a#\u043a\u043e\u043d\u0446\u0435\u0440\u04428\u043c\u0430\u0440\u0442\u0430#\u043a\u0440\u043e\u043a\u0443\u0441\u0441\u0438\u0442\u0438\u0445\u043e\u043b\u043b#\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u0438\u0306\u043b\u0435\u043f\u0441#\u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043f\u0430\u043d\u0430\u0438\u0306\u043e\u0442\u043e\u0432#\u0432\u0438\u0442\u043e\u043b\u044c\u0434\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0438\u0306#cosmosgirls#\u043a\u043e\u043d\u0446\u0435\u0440\u0442\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u044f\u043b\u0435\u043f\u0441\u0430#\u044f\u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c\u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c#\u043f\u043e\u0434\u0430\u0440\u043e\u043a\u043d\u04308\u043c\u0430\u0440\u0442\u0430#\u043c\u043e\u0441\u043a\u0432\u0430\u0441\u0438\u0442\u0438#\u043f\u0446\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u044f\u043b\u0435\u043f\u0441\u0430#lepsshop#lepsjewelry#leps",
+        "tags": [
+            "#8\u043c\u0430\u0440\u0442\u0430\u043f\u043e\u0434\u0430\u0440\u043e\u043a",
+            "#\u043a\u043e\u043d\u0446\u0435\u0440\u04428\u043c\u0430\u0440\u0442\u0430",
+            "#\u043a\u0440\u043e\u043a\u0443\u0441\u0441\u0438\u0442\u0438\u0445\u043e\u043b\u043b",
+            "#\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u0438",
+            "#\u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043f\u0430\u043d\u0430\u0438",
+            "#\u0432\u0438\u0442\u043e\u043b\u044c\u0434\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0438",
+            "#cosmosgirls",
+            "#\u043a\u043e\u043d\u0446\u0435\u0440\u0442\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u044f\u043b\u0435\u043f\u0441\u0430",
+            "#\u044f\u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c\u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c",
+            "#\u043f\u043e\u0434\u0430\u0440\u043e\u043a\u043d\u04308\u043c\u0430\u0440\u0442\u0430",
+            "#\u043c\u043e\u0441\u043a\u0432\u0430\u0441\u0438\u0442\u0438",
+            "#\u043f\u0446\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u044f\u043b\u0435\u043f\u0441\u0430",
+            "#lepsshop",
+            "#lepsjewelry",
+            "#leps"
+        ],
+        "accessibility_caption": "an image of 3 people and text that says 'CROCUS CITY HALL \u0430\u0432\u0442\u043e\u0438\u043e 8 \u043c\u0430\u0440\u0442\u0430 MY3 \u0436\u0435\u043d\u0449\u0446\u043d\u0430\u043c \u044f\u043d\u0440\u0430\u0432\u043b\u044e\u0441\u044c \u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u0438\u0443\u0447\u0430\u0441\u0442\u0438\u0438 Cosmos Girls \u0432\u0438\u0442\u043e\u043b\u044c\u0434 \u043b\u0435\u043f\u0441 \u043f\u0430\u043d\u0430\u0439\u043e\u0442\u043e\u0432 \u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0431\u0438\u043b\u0435\u0442\u044b +7(499) www.crocus-hall.ru'."
     },
     {
         "id": "2491498607705529537",
-        "comment": "\u0413\u0440\u0430\u043d\u0434\u0438\u043e\u0437\u043d\u044b\u0439 \u0440\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u0435\u043d\u0441\u043a\u0438\u0439 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c BIG ART FESTIVAL \u043e\u0442 @beriniglesias_art \ud83d\udd25\n\n\u041d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0432\u0438\u0434\u0435\u043e\u043e\u0442\u0447\u0451\u0442  \u043f\u0440\u0430\u0437\u0434\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u0421\u0442\u0430\u0440\u043e\u0433\u043e \u041d\u043e\u0432\u043e\u0433\u043e \u0433\u043e\u0434\u0430 \u0432 \u0441\u0430\u043c\u043e\u043c \u0446\u0435\u043d\u0442\u0440\u0435 \u0414\u0443\u0431\u0430\u044f \u270c\ufe0f\n\u0412\u043c\u0435\u0441\u0442\u0435 \u0441 @timatiofficial \u043d\u0430 \u0441\u0446\u0435\u043d\u0435 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u043b\u0438 \u0434\u043b\u044f \u0437\u0440\u0438\u0442\u0435\u043b\u0435\u0439 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0435 \u0445\u0438\u0442\u044b \u0438 \u043d\u043e\u0432\u044b\u0435 \u043f\u0435\u0441\u043d\u0438. \n\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0432\u0441\u0435\u043c \ud83d\ude4c\ud83c\udffb\n\u0414\u0435\u043b\u0438\u0442\u0435\u0441\u044c \u0432\u043f\u0435\u0447\u0430\u0442\u043b\u0435\u043d\u0438\u044f\u043c\u0438 \u0432 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u044f\u0445 \ud83d\udc47\ud83c\udffb\ud83d\udc47\ud83c\udffb\n\n@bigartfestival \n@maximberin \n#bigartfestival#dubai#burjkhalifa#oae#grigorileps#timatiofficial#festival#lepsshop#lepsjewelry#\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u0439\u043b\u0435\u043f\u0441#\u0434\u0443\u0431\u0430\u0439#\u0431\u0443\u0440\u0434\u0436\u0445\u0430\u043b\u0438\u0444\u0430#\u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c#\u0441\u0442\u0430\u0440\u044b\u0439\u043d\u043e\u0432\u044b\u0439\u0433\u043e\u0434",
+        "comment": "\u0413\u0440\u0430\u043d\u0434\u0438\u043e\u0437\u043d\u044b\u0439 \u0440\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u0435\u043d\u0441\u043a\u0438\u0439 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c BIG ART FESTIVAL \u043e\u0442 @beriniglesias_art \n\n\u041d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0432\u0438\u0434\u0435\u043e\u043e\u0442\u0447\u0451\u0442  \u043f\u0440\u0430\u0437\u0434\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u0421\u0442\u0430\u0440\u043e\u0433\u043e \u041d\u043e\u0432\u043e\u0433\u043e \u0433\u043e\u0434\u0430 \u0432 \u0441\u0430\u043c\u043e\u043c \u0446\u0435\u043d\u0442\u0440\u0435 \u0414\u0443\u0431\u0430\u044f \ufe0f\n\u0412\u043c\u0435\u0441\u0442\u0435 \u0441 @timatiofficial \u043d\u0430 \u0441\u0446\u0435\u043d\u0435 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u043b\u0438 \u0434\u043b\u044f \u0437\u0440\u0438\u0442\u0435\u043b\u0435\u0439 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0435 \u0445\u0438\u0442\u044b \u0438 \u043d\u043e\u0432\u044b\u0435 \u043f\u0435\u0441\u043d\u0438. \n\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0432\u0441\u0435\u043c \n\u0414\u0435\u043b\u0438\u0442\u0435\u0441\u044c \u0432\u043f\u0435\u0447\u0430\u0442\u043b\u0435\u043d\u0438\u044f\u043c\u0438 \u0432 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u044f\u0445 \n\n@bigartfestival \n@maximberin \n#bigartfestival#dubai#burjkhalifa#oae#grigorileps#timatiofficial#festival#lepsshop#lepsjewelry#\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u0439\u043b\u0435\u043f\u0441#\u0434\u0443\u0431\u0430\u0439#\u0431\u0443\u0440\u0434\u0436\u0445\u0430\u043b\u0438\u0444\u0430#\u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c#\u0441\u0442\u0430\u0440\u044b\u0439\u043d\u043e\u0432\u044b\u0439\u0433\u043e\u0434",
+        "tags": [
+            "#bigartfestival",
+            "#dubai",
+            "#burjkhalifa",
+            "#oae",
+            "#grigorileps",
+            "#timatiofficial",
+            "#festival",
+            "#lepsshop",
+            "#lepsjewelry",
+            "#\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u0439\u043b\u0435\u043f\u0441",
+            "#\u0434\u0443\u0431\u0430\u0439",
+            "#\u0431\u0443\u0440\u0434\u0436\u0445\u0430\u043b\u0438\u0444\u0430",
+            "#\u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c",
+            "#\u0441\u0442\u0430\u0440\u044b\u0439\u043d\u043e\u0432\u044b\u0439\u0433\u043e\u0434"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2476443662509954402",
-        "comment": "\u2728\u0414\u041e\u0420\u041e\u0413\u0418\u0415 \u0414\u0420\u0423\u0417\u042c\u042f!\u2728\n\n\u041f\u0440\u0438\u043c\u0438\u0442\u0435 \u0441\u0430\u043c\u044b\u0435 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u0438\u0435 \u0438 \u0442\u0435\u043f\u043b\u044b\u0435 \u043f\u043e\u0437\u0434\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0441 \u043d\u0430\u0441\u0442\u0443\u043f\u0430\u044e\u0449\u0438\u043c \u041d\u041e\u0412\u042b\u041c \u0413\u041e\u0414\u041e\u041c!\ud83c\udf84\n\n\u0423\u0445\u043e\u0434\u044f\u0449\u0438\u0439 \u0433\u043e\u0434 \u043d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043e\u0446\u0435\u043d\u0438\u0442\u044c \u043e\u0434\u043d\u043e\u0437\u043d\u0430\u0447\u043d\u043e. \u0414\u043b\u044f \u043a\u043e\u0433\u043e-\u0442\u043e \u043e\u043d \u0441\u0442\u0430\u043b \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u043c \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0435\u043c \u043d\u0430 \u043f\u0440\u043e\u0447\u043d\u043e\u0441\u0442\u044c, \u0430 \u0434\u043b\u044f \u043a\u043e\u0433\u043e-\u0442\u043e \u2014 \u0433\u043e\u0434\u043e\u043c \u043d\u043e\u0432\u044b\u0445 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439.\n\u0418 \u044f \u0445\u043e\u0447\u0443 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u0435 \u043f\u043e\u0436\u0435\u043b\u0430\u0442\u044c , \u0447\u0442\u043e\u0431\u044b \u0432 2021 \u0433\u043e\u0434\u0443 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u043b\u0438\u0441\u044c \u0412\u0430\u0448\u0438 \u0441\u0430\u043c\u044b\u0435 \u0441\u043e\u043a\u0440\u043e\u0432\u0435\u043d\u043d\u044b\u0435 \u0436\u0435\u043b\u0430\u043d\u0438\u044f, \u0447\u0442\u043e\u0431\u044b \u0431\u044b\u043b\u0438 \u0437\u0434\u043e\u0440\u043e\u0432\u044b \u0412\u0430\u0448\u0438 \u0431\u043b\u0438\u0437\u043a\u0438\u0435. \u041f\u0443\u0441\u0442\u044c \u0412\u0430\u0441 \u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u043f\u043e\u043a\u0438\u0434\u0430\u0435\u0442 \u0432\u0435\u0440\u0430 \u0432 \u043b\u0443\u0447\u0448\u0435\u0435, \u0438 \u0432\u0441\u0435\u043c \u0412\u0430\u0448\u0438\u043c \u0434\u043e\u0431\u0440\u044b\u043c \u043d\u0430\u0447\u0438\u043d\u0430\u043d\u0438\u044f\u043c \u0441\u043e\u043f\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u0443\u0441\u043f\u0435\u0445. \u041a\u0440\u0435\u043f\u043a\u043e\u0433\u043e \u0412\u0430\u043c \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f, \u043b\u044e\u0431\u0432\u0438, \u0441\u0447\u0430\u0441\u0442\u044c\u044f, \u0443\u044e\u0442\u0430 \u0432 \u0434\u043e\u043c\u0435 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u044f!\ud83d\ude4f \n\n#\u0433\u0440\u0438\u043e\u0433\u0440\u0438\u0439\u043b\u0435\u043f\u0441#\u043d\u043e\u0432\u044b\u0439\u0433\u043e\u04342021#\u043d\u043e\u0432\u044b\u0435\u043f\u0435\u0441\u043d\u0438#\u044f\u0449\u0438\u043a\u043f\u0430\u043d\u0434\u043e\u0440\u044b#\u043d\u0435\u0437\u0430\u0431\u044b\u0432\u0448\u0430\u044f\u043c\u0435\u043d\u044f#\u043b\u0435\u043f\u0441\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u0439#lepsshop#lepsjewelry#luckyman#\u043c\u043e\u0441\u043a\u0432\u0430#moscowcity",
-        "accessibility_caption": " an image of 1 person, hair, standing, suit, eyewear and outerwear."
+        "comment": "\u0414\u041e\u0420\u041e\u0413\u0418\u0415 \u0414\u0420\u0423\u0417\u042c\u042f!\n\n\u041f\u0440\u0438\u043c\u0438\u0442\u0435 \u0441\u0430\u043c\u044b\u0435 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u0438\u0435 \u0438 \u0442\u0435\u043f\u043b\u044b\u0435 \u043f\u043e\u0437\u0434\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0441 \u043d\u0430\u0441\u0442\u0443\u043f\u0430\u044e\u0449\u0438\u043c \u041d\u041e\u0412\u042b\u041c \u0413\u041e\u0414\u041e\u041c!\n\n\u0423\u0445\u043e\u0434\u044f\u0449\u0438\u0439 \u0433\u043e\u0434 \u043d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043e\u0446\u0435\u043d\u0438\u0442\u044c \u043e\u0434\u043d\u043e\u0437\u043d\u0430\u0447\u043d\u043e. \u0414\u043b\u044f \u043a\u043e\u0433\u043e-\u0442\u043e \u043e\u043d \u0441\u0442\u0430\u043b \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u043c \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0435\u043c \u043d\u0430 \u043f\u0440\u043e\u0447\u043d\u043e\u0441\u0442\u044c, \u0430 \u0434\u043b\u044f \u043a\u043e\u0433\u043e-\u0442\u043e \u2014 \u0433\u043e\u0434\u043e\u043c \u043d\u043e\u0432\u044b\u0445 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439.\n\u0418 \u044f \u0445\u043e\u0447\u0443 \u0438\u0441\u043a\u0440\u0435\u043d\u043d\u0435 \u043f\u043e\u0436\u0435\u043b\u0430\u0442\u044c , \u0447\u0442\u043e\u0431\u044b \u0432 2021 \u0433\u043e\u0434\u0443 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u043b\u0438\u0441\u044c \u0412\u0430\u0448\u0438 \u0441\u0430\u043c\u044b\u0435 \u0441\u043e\u043a\u0440\u043e\u0432\u0435\u043d\u043d\u044b\u0435 \u0436\u0435\u043b\u0430\u043d\u0438\u044f, \u0447\u0442\u043e\u0431\u044b \u0431\u044b\u043b\u0438 \u0437\u0434\u043e\u0440\u043e\u0432\u044b \u0412\u0430\u0448\u0438 \u0431\u043b\u0438\u0437\u043a\u0438\u0435. \u041f\u0443\u0441\u0442\u044c \u0412\u0430\u0441 \u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u043f\u043e\u043a\u0438\u0434\u0430\u0435\u0442 \u0432\u0435\u0440\u0430 \u0432 \u043b\u0443\u0447\u0448\u0435\u0435, \u0438 \u0432\u0441\u0435\u043c \u0412\u0430\u0448\u0438\u043c \u0434\u043e\u0431\u0440\u044b\u043c \u043d\u0430\u0447\u0438\u043d\u0430\u043d\u0438\u044f\u043c \u0441\u043e\u043f\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u0443\u0441\u043f\u0435\u0445. \u041a\u0440\u0435\u043f\u043a\u043e\u0433\u043e \u0412\u0430\u043c \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f, \u043b\u044e\u0431\u0432\u0438, \u0441\u0447\u0430\u0441\u0442\u044c\u044f, \u0443\u044e\u0442\u0430 \u0432 \u0434\u043e\u043c\u0435 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u044f! \n\n#\u0433\u0440\u0438\u043e\u0433\u0440\u0438\u0439\u043b\u0435\u043f\u0441#\u043d\u043e\u0432\u044b\u0439\u0433\u043e\u04342021#\u043d\u043e\u0432\u044b\u0435\u043f\u0435\u0441\u043d\u0438#\u044f\u0449\u0438\u043a\u043f\u0430\u043d\u0434\u043e\u0440\u044b#\u043d\u0435\u0437\u0430\u0431\u044b\u0432\u0448\u0430\u044f\u043c\u0435\u043d\u044f#\u043b\u0435\u043f\u0441\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u0439#lepsshop#lepsjewelry#luckyman#\u043c\u043e\u0441\u043a\u0432\u0430#moscowcity",
+        "tags": [
+            "#\u0433\u0440\u0438\u043e\u0433\u0440\u0438\u0439\u043b\u0435\u043f\u0441",
+            "#\u043d\u043e\u0432\u044b\u0439\u0433\u043e\u04342021",
+            "#\u043d\u043e\u0432\u044b\u0435\u043f\u0435\u0441\u043d\u0438",
+            "#\u044f\u0449\u0438\u043a\u043f\u0430\u043d\u0434\u043e\u0440\u044b",
+            "#\u043d\u0435\u0437\u0430\u0431\u044b\u0432\u0448\u0430\u044f\u043c\u0435\u043d\u044f",
+            "#\u043b\u0435\u043f\u0441\u0433\u0440\u0438\u0433\u043e\u0440\u0438\u0439",
+            "#lepsshop",
+            "#lepsjewelry",
+            "#luckyman",
+            "#\u043c\u043e\u0441\u043a\u0432\u0430",
+            "#moscowcity"
+        ],
+        "accessibility_caption": "an image of 1 person, hair, standing, suit, eyewear and outerwear."
     },
     {
         "id": "2534329299518208598",
-        "comment": "meu dia de prepara\u00e7\u00e3o pro #doming\u00e3odofaust\u00e3o em 20s pra voc\u00eas \u2764\ufe0f\n\no resto, s\u00f3 ligando na telinha, C\u00ea n\u00e3o vai perder n\u00e9? \nhoje ser\u00e1 especial \u2728",
+        "comment": "meu dia de prepara\u00e7\u00e3o pro #doming\u00e3odofaust\u00e3o em 20s pra voc\u00eas \ufe0f\n\no resto, s\u00f3 ligando na telinha, C\u00ea n\u00e3o vai perder n\u00e9? \nhoje ser\u00e1 especial ",
+        "tags": [
+            "#doming\u00e3odofaust\u00e3o"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2539392565604857632",
-        "comment": "! ACEITA\u00c7\u00c3O !\n.\nPrimeiramente gostaria de lembrar que por aqui s\u00f3 mostramos a parte boa;\nLogo, uma boa pose, uma boa luz e um bom \u00e2ngulo fazem total diferen\u00e7a...\n.\nEm segundo lugar, vamos parar com\nessa brincadeira de ficar \u201copinando\u201d, ou melhor,  impondo a sua opini\u00e3o para a realidade do outro...\n\u201c Essa roupa \u00e9 muito curta...\u201d\n\u201c ahhh, estou achando voc\u00ea muito seca...\u201d Ou \n\u201c Nossa, como voc\u00ea est\u00e1 gordinha...\u201d \n\u201cVoc\u00ea n\u00e3o deveria usar tanto decote...\u201d \nPs: Gostaria de lhe dizer que Lumena n\u00e3o autorizou a sua opini\u00e3o por aqui! \ud83d\udc4a\ud83c\udffd\ud83d\ude34\n.\nE Terceiramente \ud83d\udc83\ud83c\udffd\nEssa \u00e9 para voc\u00ea, mulher que se importa demais com a opini\u00e3o dos outros:\nNingu\u00e9m disse que a sua miss\u00e3o na terra \u00e9 agradar a todo mundo!\nAceite-se,\nEsteja feliz consigo mesma,\nE nunca deixe de ouvir a sua voz interior!\n#sejamaisvoce \n\ud83d\udc59@livejoaopessoa",
-        "accessibility_caption": " an image of 2 people."
+        "comment": "! ACEITA\u00c7\u00c3O !\n.\nPrimeiramente gostaria de lembrar que por aqui s\u00f3 mostramos a parte boa;\nLogo, uma boa pose, uma boa luz e um bom \u00e2ngulo fazem total diferen\u00e7a...\n.\nEm segundo lugar, vamos parar com\nessa brincadeira de ficar \u201copinando\u201d, ou melhor,  impondo a sua opini\u00e3o para a realidade do outro...\n\u201c Essa roupa \u00e9 muito curta...\u201d\n\u201c ahhh, estou achando voc\u00ea muito seca...\u201d Ou \n\u201c Nossa, como voc\u00ea est\u00e1 gordinha...\u201d \n\u201cVoc\u00ea n\u00e3o deveria usar tanto decote...\u201d \nPs: Gostaria de lhe dizer que Lumena n\u00e3o autorizou a sua opini\u00e3o por aqui! \n.\nE Terceiramente \nEssa \u00e9 para voc\u00ea, mulher que se importa demais com a opini\u00e3o dos outros:\nNingu\u00e9m disse que a sua miss\u00e3o na terra \u00e9 agradar a todo mundo!\nAceite-se,\nEsteja feliz consigo mesma,\nE nunca deixe de ouvir a sua voz interior!\n#sejamaisvoce \n@livejoaopessoa",
+        "tags": [
+            "#sejamaisvoce"
+        ],
+        "accessibility_caption": "an image of 2 people."
     },
     {
         "id": "2537147979557777641",
-        "comment": "As vezes vivemos por tr\u00e1s de um \u201cescudo\u201d, com receio de n\u00e3o agradar a todos a nossa volta...\nUm escudo capaz at\u00e9 de esconder de n\u00f3s quem somos;\n.\nN\u00e3o tenha medo de \u201cperder\u201d pessoas,\nTenha medo de perder quem voc\u00ea \u00e9,\nAo tentar agradar a todos ao seu redor...\u201d\n.\nQuintouuuuu com #tbt desse ensaio Maravilhosooooo \ud83d\udc83\ud83c\udffd\u2764\ufe0f @ittalomatias",
-        "accessibility_caption": " an image of 1 person and outdoors."
+        "comment": "As vezes vivemos por tr\u00e1s de um \u201cescudo\u201d, com receio de n\u00e3o agradar a todos a nossa volta...\nUm escudo capaz at\u00e9 de esconder de n\u00f3s quem somos;\n.\nN\u00e3o tenha medo de \u201cperder\u201d pessoas,\nTenha medo de perder quem voc\u00ea \u00e9,\nAo tentar agradar a todos ao seu redor...\u201d\n.\nQuintouuuuu com #tbt desse ensaio Maravilhosooooo \ufe0f @ittalomatias",
+        "tags": [
+            "#tbt"
+        ],
+        "accessibility_caption": "an image of 1 person and outdoors."
     },
     {
         "id": "2533712934113526425",
-        "comment": "Tudo ao nosso redor \u00e9 Energia,\nPreste aten\u00e7\u00e3o,\nConecte-se! \ud83d\ude4f\ud83c\udffd\ud83d\udc99\n#sogood",
-        "accessibility_caption": " an image of 1 person and body of water."
+        "comment": "Tudo ao nosso redor \u00e9 Energia,\nPreste aten\u00e7\u00e3o,\nConecte-se! \n#sogood",
+        "tags": [
+            "#sogood"
+        ],
+        "accessibility_caption": "an image of 1 person and body of water."
     },
     {
         "id": "2539362438555710140",
-        "comment": "Every father should look after the day his son will follow his example instead of his advice.\n\nChaque p\u00e8re devrait rechercher le jour o\u00f9 son fils suivra son exemple plut\u00f4t que ses conseils.\n\n\ud83d\udcf8 @number31photography \n\n#likedaddylikeson",
-        "accessibility_caption": " an image of 2 people, people standing and footwear."
+        "comment": "Every father should look after the day his son will follow his example instead of his advice.\n\nChaque p\u00e8re devrait rechercher le jour o\u00f9 son fils suivra son exemple plut\u00f4t que ses conseils.\n\n @number31photography \n\n#likedaddylikeson",
+        "tags": [
+            "#likedaddylikeson"
+        ],
+        "accessibility_caption": "an image of 2 people, people standing and footwear."
     },
     {
         "id": "2538824345935334797",
-        "comment": "Have a nice week-end everyone !\n\nBon week-end \u00e0 tous ! \n\n@boohoomanofficial \n\n\ud83d\udcf8 @number31photography \n\n#weekendvibes #strasbourg #streetphotography #streetwear",
-        "accessibility_caption": " an image of 1 person, standing, footwear and outdoors."
+        "comment": "Have a nice week-end everyone !\n\nBon week-end \u00e0 tous ! \n\n@boohoomanofficial \n\n @number31photography \n\n#weekendvibes #strasbourg #streetphotography #streetwear",
+        "tags": [
+            "#weekendvibes",
+            "#strasbourg",
+            "#streetphotography",
+            "#streetwear"
+        ],
+        "accessibility_caption": "an image of 1 person, standing, footwear and outdoors."
     },
     {
         "id": "2538075148651068101",
-        "comment": "Gym killer or Serial lover ?\nSwipe to see \ud83d\udc48\ud83c\udffe\n\n\ud83d\udcf8 @kamil_majdanski_photography \n\n#photooftheday #classymodel #gymclothes",
-        "accessibility_caption": " an image of 1 person, biceps, beard and text."
+        "comment": "Gym killer or Serial lover ?\nSwipe to see \n\n @kamil_majdanski_photography \n\n#photooftheday #classymodel #gymclothes",
+        "tags": [
+            "#photooftheday",
+            "#classymodel",
+            "#gymclothes"
+        ],
+        "accessibility_caption": "an image of 1 person, biceps, beard and text."
     },
     {
         "id": "2536623084137751588",
-        "comment": "Dans le cadre de la campagne BIG : BORN IN THE GYM\n@olimpnutritionfr organise un concours pour vous faire gagner un bon d\u2019achat de 100\u20ac \ud83d\udcb6 \n\nPour tenter votre chance :\n\n-suivre nos deux comptes @bionic_body @olimpnutritionfr \n-dites-nous en commentaires ce que repr\u00e9sente la musculation pour vous ou ce qu\u2019elle vous apporte.\n\nOn choisira le meilleur commentaire dimanche soir \u00e0 20h et son auteur recevra le bon de 100\u20ac\nA vos claviers \u2328\ufe0f \ud83d\udcaa\ud83c\udffe\n\n#jeuconcours #giveaway #proteinpowder #olimpsportnutrition",
-        "accessibility_caption": " an image of 1 person, biceps and beard."
+        "comment": "Dans le cadre de la campagne BIG : BORN IN THE GYM\n@olimpnutritionfr organise un concours pour vous faire gagner un bon d\u2019achat de 100\u20ac  \n\nPour tenter votre chance :\n\n-suivre nos deux comptes @bionic_body @olimpnutritionfr \n-dites-nous en commentaires ce que repr\u00e9sente la musculation pour vous ou ce qu\u2019elle vous apporte.\n\nOn choisira le meilleur commentaire dimanche soir \u00e0 20h et son auteur recevra le bon de 100\u20ac\nA vos claviers \ufe0f \n\n#jeuconcours #giveaway #proteinpowder #olimpsportnutrition",
+        "tags": [
+            "#jeuconcours",
+            "#giveaway",
+            "#proteinpowder",
+            "#olimpsportnutrition"
+        ],
+        "accessibility_caption": "an image of 1 person, biceps and beard."
     },
     {
         "id": "2535143734225818188",
-        "comment": "Bodybuilding taught me rigor. \nIt gave me a framework that I have applied on a daily basis, in my sporting, professional and family life.\n\nB.I.G.  It\u2019s been 30 years that Born In The Gym, an Olimp Sport Nutrition's brand helps anyone who trains hard and gives everything to achieve their goal.\n\nLa musculation m\u2019a appris la rigueur. \nElle m\u2019a donn\u00e9 un cadre que j\u2019applique depuis au quotidien, dans ma vie sportive, professionnelle et familiale.\n\nB.I.G. - Cela fait 30 ans que Born In The Gym, une marque d\u2019Olimp Sport Nutrition, s\u2019adresse \u00e0 tous ceux qui s\u2019entra\u00eenent dur et qui donnent tout pour atteindre leur objectif.\n\n\ud83d\udcf8 @kamil_majdanski_photography \n\n#borninthegym #big #olimpteam",
-        "accessibility_caption": " an image of 1 person, biceps and beard."
+        "comment": "Bodybuilding taught me rigor. \nIt gave me a framework that I have applied on a daily basis, in my sporting, professional and family life.\n\nB.I.G.  It\u2019s been 30 years that Born In The Gym, an Olimp Sport Nutrition's brand helps anyone who trains hard and gives everything to achieve their goal.\n\nLa musculation m\u2019a appris la rigueur. \nElle m\u2019a donn\u00e9 un cadre que j\u2019applique depuis au quotidien, dans ma vie sportive, professionnelle et familiale.\n\nB.I.G. - Cela fait 30 ans que Born In The Gym, une marque d\u2019Olimp Sport Nutrition, s\u2019adresse \u00e0 tous ceux qui s\u2019entra\u00eenent dur et qui donnent tout pour atteindre leur objectif.\n\n @kamil_majdanski_photography \n\n#borninthegym #big #olimpteam",
+        "tags": [
+            "#borninthegym",
+            "#big",
+            "#olimpteam"
+        ],
+        "accessibility_caption": "an image of 1 person, biceps and beard."
     },
     {
         "id": "2534278226065763433",
-        "comment": "What if it was an ad for @nike ?What do you think ?\nTag @nike @nike.__shoes as a comment or story if you share so they can see it \ud83e\udd29\n\nEt si c\u2019\u00e9tait une pub pour @nike ? Tu valides? \nTag @nike @nike.__shoes en commentaire ou story si tu repartages pour qu\u2019ils la voient \ud83e\udd29\n\n\ud83c\udfa5 @number31photography \n\n#nikeaddict #nikeshoes #ossurfamily #prosthetics",
+        "comment": "What if it was an ad for @nike ?What do you think ?\nTag @nike @nike.__shoes as a comment or story if you share so they can see it \n\nEt si c\u2019\u00e9tait une pub pour @nike ? Tu valides? \nTag @nike @nike.__shoes en commentaire ou story si tu repartages pour qu\u2019ils la voient \n\n @number31photography \n\n#nikeaddict #nikeshoes #ossurfamily #prosthetics",
+        "tags": [
+            "#nikeaddict",
+            "#nikeshoes",
+            "#ossurfamily",
+            "#prosthetics"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2532969840488458515",
-        "comment": "On my bad days all I need is to be with my kids to feel better.\n\nDans mes mauvais jours tout ce dont j\u2019ai besoin c\u2019est d\u2019\u00eatre avec mes enfants pour aller mieux.\n\n#dadlife #mysons #happinesstherapy #familylove\u2764\ufe0f",
-        "accessibility_caption": " a black-and-white image of 2 people, child, people standing and beach."
+        "comment": "On my bad days all I need is to be with my kids to feel better.\n\nDans mes mauvais jours tout ce dont j\u2019ai besoin c\u2019est d\u2019\u00eatre avec mes enfants pour aller mieux.\n\n#dadlife #mysons #happinesstherapy #familylove\ufe0f",
+        "tags": [
+            "#dadlife",
+            "#mysons",
+            "#happinesstherapy",
+            "#familylove"
+        ],
+        "accessibility_caption": "a black-and-white image of 2 people, child, people standing and beach."
     },
     {
         "id": "2532233154586455757",
-        "comment": "Let the spring colors out !\n#greenpower \nThe new @boohoomanofficial @boohoomanactive Running Collection is out ! \ud83d\udd25\nDo you like it ?\n\nSortons les couleurs printani\u00e8res !\n#greenpower\nLa nouvelle collection running de @boohoomanofficial @boohoomanactive est sortie. \nTu valides ?",
-        "accessibility_caption": " an image of 1 person, standing and footwear."
+        "comment": "Let the spring colors out !\n#greenpower \nThe new @boohoomanofficial @boohoomanactive Running Collection is out ! \nDo you like it ?\n\nSortons les couleurs printani\u00e8res !\n#greenpower\nLa nouvelle collection running de @boohoomanofficial @boohoomanactive est sortie. \nTu valides ?",
+        "tags": [
+            "#greenpower",
+            "#greenpower"
+        ],
+        "accessibility_caption": "an image of 1 person, standing and footwear."
     },
     {
         "id": "2530785093402209194",
-        "comment": "Stand up and be the one !\n\nYou have to have fallen to know the strength to get up.\n\nIl faut \u00eatre tomb\u00e9 pour conna\u00eetre la force n\u00e9cessaire pour se relever.\n\n\ud83d\udcf8 @m.s_photographie67 \n\n#standup #staystrong #nevergiveup #motivation #dedication #noexcuses",
-        "accessibility_caption": " an image of 1 person, biceps, standing and indoor."
+        "comment": "Stand up and be the one !\n\nYou have to have fallen to know the strength to get up.\n\nIl faut \u00eatre tomb\u00e9 pour conna\u00eetre la force n\u00e9cessaire pour se relever.\n\n @m.s_photographie67 \n\n#standup #staystrong #nevergiveup #motivation #dedication #noexcuses",
+        "tags": [
+            "#standup",
+            "#staystrong",
+            "#nevergiveup",
+            "#motivation",
+            "#dedication",
+            "#noexcuses"
+        ],
+        "accessibility_caption": "an image of 1 person, biceps, standing and indoor."
     },
     {
         "id": "2529824324267197568",
-        "comment": "Happy birthday to me !\n\nThis lil boy is 36 years old today.\nI have fallen many times and still fight to stay up.\n\nThank you God for your protection.\n\nPut a smiley to tell me what gift you give me \ud83d\ude2c\n\nC\u2019est mon anniversaire !\n\nCe petit gar\u00e7on a 36 ans aujourd'hui.\nJe suis tomb\u00e9 plusieurs fois et je me bats toujours pour rester debout.\n\nMerci mon Dieu pour ta protection.\n\nMets en smiley le cadeau que tu m\u2019offres \ud83d\ude2c\n\n#happybirthdaytome",
-        "accessibility_caption": " an image of 2 people, child, people standing, people sitting and outdoors."
+        "comment": "Happy birthday to me !\n\nThis lil boy is 36 years old today.\nI have fallen many times and still fight to stay up.\n\nThank you God for your protection.\n\nPut a smiley to tell me what gift you give me \n\nC\u2019est mon anniversaire !\n\nCe petit gar\u00e7on a 36 ans aujourd'hui.\nJe suis tomb\u00e9 plusieurs fois et je me bats toujours pour rester debout.\n\nMerci mon Dieu pour ta protection.\n\nMets en smiley le cadeau que tu m\u2019offres \n\n#happybirthdaytome",
+        "tags": [
+            "#happybirthdaytome"
+        ],
+        "accessibility_caption": "an image of 2 people, child, people standing, people sitting and outdoors."
     },
     {
         "id": "2536610349861608193",
-        "comment": "All the snuggles \ud83e\uddf8\ud83d\udc95 @anjalouise.a.m \n#springbreak \n#Malibu \n#motherdaughter",
-        "accessibility_caption": " an image of 2 people."
+        "comment": "All the snuggles  @anjalouise.a.m \n#springbreak \n#Malibu \n#motherdaughter",
+        "tags": [
+            "#springbreak",
+            "#Malibu",
+            "#motherdaughter"
+        ],
+        "accessibility_caption": "an image of 2 people."
     },
     {
         "id": "2534557302755088921",
-        "comment": "\ud83c\udf34 Springs Vibes... \u2600\ufe0f\ud83c\udf38 \n#spring #springbreak",
+        "comment": " Springs Vibes... \ufe0f \n#spring #springbreak",
+        "tags": [
+            "#spring",
+            "#springbreak"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2531735488790072679",
-        "comment": "This is my favorite @dahlia #tequila cocktail! \ud83d\ude0b\ud83c\udf79\nCheck out my recipe. \n\u00a0#ad by @RunwayInfluence",
+        "comment": "This is my favorite @dahlia #tequila cocktail! \nCheck out my recipe. \n\u00a0#ad by @RunwayInfluence",
+        "tags": [
+            "#tequila",
+            "#ad"
+        ],
         "accessibility_caption": "None"
     },
     {
         "id": "2530973786540850006",
-        "comment": "Hey ho, let's go! Hey ho, let's go!\nHey ho, let's go... \u2600\ufe0f\u26a1\ufe0f\u2604\ufe0f\u2600\ufe0f\n.\n@alo #alopartner",
-        "accessibility_caption": " an image of 1 person and text that says 'alo'."
+        "comment": "Hey ho, let's go! Hey ho, let's go!\nHey ho, let's go... \ufe0f\ufe0f\ufe0f\ufe0f\n.\n@alo #alopartner",
+        "tags": [
+            "#alopartner"
+        ],
+        "accessibility_caption": "an image of 1 person and text that says 'alo'."
     },
     {
         "id": "2525338314720159704",
-        "comment": "The strength, love, beauty, and patience this women provides is undeniable. Happy #internationalwomensday @tahitilovesu \ud83d\udcaa\ud83c\udffd\u2764\ufe0f",
-        "accessibility_caption": " an image of 1 person and body of water."
+        "comment": "The strength, love, beauty, and patience this women provides is undeniable. Happy #internationalwomensday @tahitilovesu \ufe0f",
+        "tags": [
+            "#internationalwomensday"
+        ],
+        "accessibility_caption": "an image of 1 person and body of water."
     },
     {
         "id": "2533615495346436916",
-        "comment": "\u041f\u0440\u0438\u043b\u0435\u0442\u0435\u043b\u0430 \u0438 \u043f\u0435\u0440\u0432\u044b\u043c \u0434\u0435\u043b\u043e\u043c \u0432 \u043b\u044e\u0431\u0438\u043c\u044b\u0439 @q_minsk \u043d\u0430 \u043d\u043e\u0432\u0443\u044e \u043a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044e \ud83d\udecd#natashazinko \u2764\ufe0f",
-        "accessibility_caption": " an image of 1 person and standing."
+        "comment": "\u041f\u0440\u0438\u043b\u0435\u0442\u0435\u043b\u0430 \u0438 \u043f\u0435\u0440\u0432\u044b\u043c \u0434\u0435\u043b\u043e\u043c \u0432 \u043b\u044e\u0431\u0438\u043c\u044b\u0439 @q_minsk \u043d\u0430 \u043d\u043e\u0432\u0443\u044e \u043a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044e #natashazinko \ufe0f",
+        "tags": [
+            "#natashazinko"
+        ],
+        "accessibility_caption": "an image of 1 person and standing."
     },
     {
         "id": "2532776709163146594",
-        "comment": "\u041f\u043e \u043a\u0430\u043a\u043e\u0439-\u0442\u043e \u043f\u0440\u0438\u0447\u0438\u043d\u0435 \u0444\u043e\u0442\u043e \u0431\u044b\u043b\u043e \u0443\u0434\u0430\u043b\u0435\u043d\u043e(\ud83e\udd28\u041f\u043e\u044d\u0442\u043e\u043c\u0443 \u0437\u0430\u043b\u0438\u0432\u0430\u044e \u0435\u0449\u0451 \u0440\u0430\u0437 \ud83e\udd1e\ud83c\udffd #goodbyes #dubai \ud83d\udc9b",
-        "accessibility_caption": " an image of 1 person, standing and outdoors."
+        "comment": "\u041f\u043e \u043a\u0430\u043a\u043e\u0439-\u0442\u043e \u043f\u0440\u0438\u0447\u0438\u043d\u0435 \u0444\u043e\u0442\u043e \u0431\u044b\u043b\u043e \u0443\u0434\u0430\u043b\u0435\u043d\u043e(\u041f\u043e\u044d\u0442\u043e\u043c\u0443 \u0437\u0430\u043b\u0438\u0432\u0430\u044e \u0435\u0449\u0451 \u0440\u0430\u0437  #goodbyes #dubai ",
+        "tags": [
+            "#goodbyes",
+            "#dubai"
+        ],
+        "accessibility_caption": "an image of 1 person, standing and outdoors."
     },
     {
         "id": "2529042006014774256",
         "comment": "\u041a\u0430\u0436\u0434\u043e\u0435 \u043d\u0430\u0448\u0435 \u0443\u0442\u0440\u043e \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442\u0441\u044f \u0442\u0430\u043a... #\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430\u043f\u043e\u043c\u043e\u0440\u044e",
-        "accessibility_caption": " an image of 1 person, child, standing and outdoors."
+        "tags": [
+            "#\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430\u043f\u043e\u043c\u043e\u0440\u044e"
+        ],
+        "accessibility_caption": "an image of 1 person, child, standing and outdoors."
     }
 ]

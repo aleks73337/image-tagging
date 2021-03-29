@@ -2,7 +2,8 @@ import urllib.request
 import os
 import sys
 import json
-import logging
+import re
+
 from tqdm import tqdm
 
 parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,6 +21,7 @@ class GreedyParser(Base):
                 count_of_posts_per_profile     : int = 100, 
                 count_of_following_per_profile : int = 100,
                 total_count_of_posts           : int = 500,
+                min_tags_per_post              : int =  1,
                 folder_to_save_data            : str = parent_dir+'/dataset'):
 
         super().__init__("GreedyParser")
@@ -28,6 +30,7 @@ class GreedyParser(Base):
         self.__count_of_posts       = count_of_posts_per_profile
         self.__cont_of_following    = count_of_following_per_profile
         self.__total_count_of_posts = total_count_of_posts
+        self.__min_tags_per_post    = min_tags_per_post
         self.__folder               = folder_to_save_data
 
         if not os.path.exists(self.__folder):
@@ -41,6 +44,7 @@ class GreedyParser(Base):
 
         index = 0
         bar = tqdm(total=self.__total_count_of_posts)
+        tags_regular = re.compile(r'#\w+')
         while len(posts) < self.__total_count_of_posts and index < len(requested_users):
             #print(f'Progress: {len(posts)}/{self.__total_count_of_posts}')
             self._logger.debug(f'Request {requested_users[index]}')
@@ -54,11 +58,12 @@ class GreedyParser(Base):
                 user.posts.request_more(self.__count_of_posts - count_of_posts)
 
             for post in user.posts.posts[:self.__count_of_posts]:
-                if "#" not in post.comment:
+                tags = tags_regular.findall(post.comment)
+                if len(tags) < self.__min_tags_per_post:
                     continue
                 
                 urllib.request.urlretrieve(post.photo_url, os.path.join(self.__folder, str(post.id)+'.jpg'))
-                posts.append({'id': post.id, 'comment': post.comment, 'accessibility_caption' : post.accessibility_caption})
+                posts.append({'id': post.id, 'comment': post.comment, 'tags' : tags, 'accessibility_caption' : post.accessibility_caption})
                 bar.update(1)
 
             count_of_users = len(user.follow.followings)

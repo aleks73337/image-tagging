@@ -5,6 +5,7 @@ from .config import global_config
 from abc import ABCMeta, abstractmethod
 
 import json
+import emoji
 
 instagram_url = 'https://www.instagram.com'
 base_query_url = f'{instagram_url}/graphql/query'
@@ -69,8 +70,10 @@ class Post:
         self.photo_url              = post['display_url']
         self.accessibility_caption  = str(post['accessibility_caption'])
         self.comment                = str(post['edge_media_to_caption']['edges'][0]['node']['text'] if len(post['edge_media_to_caption']['edges']) >= 1 else "")
+        self.comment                = emoji.get_emoji_regexp().sub(r'',self.comment)
+
         if self.accessibility_caption:
-            text= 'May be'
+            text= 'May be '
             index = self.accessibility_caption.find(text)
             if index != -1:
                 self.accessibility_caption = self.accessibility_caption[index+len(text):]
@@ -128,7 +131,7 @@ class Follow(RequestableContent):
 
     def _generate_request_string(self, count):
         after = f',"after" :"{self.end_cursor}"' if self.end_cursor else ''
-        variables = f'{{"id":"{self.id}", "include_reel":true, "fetch_mutual":false,"first":{count}{after}}}'
+        variables = f'{{"id":"{self.id}", "include_reel":false, "fetch_mutual":false, "first":{count}{after}}}'
         request = f'{base_query_url}/?query_hash={self.hash}&variables={variables}'
         self._logger.debug(f'Do request = {request}')
         return request
