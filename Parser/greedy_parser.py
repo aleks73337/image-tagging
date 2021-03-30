@@ -72,6 +72,9 @@ class GreedyParser(Base):
         user = self.__parser.request_person(username)
         self.__bar.set_description(f'Current user is {username}')
 
+        if user.is_business_account or user.is_private:
+            return
+
         for post in _get_data(user.posts, self.__count_of_posts):
             self.__process_post(post)
 

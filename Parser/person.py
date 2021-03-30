@@ -160,6 +160,7 @@ class Person(Base):
             raise
 
         self.id = int(user_json['id'])
+        self.is_business_account = user_json['is_business_account']
         self.is_private = user_json['is_private']
         self.biography = user_json['biography']
         self.full_name = user_json['full_name']
