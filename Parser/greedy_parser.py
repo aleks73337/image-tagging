@@ -113,7 +113,7 @@ class GreedyParser(Base):
 
 
 # python .\greedy_parser.py --total_count_of_posts 100 --posts_per_profile 200 --min_tags_per_post 3 timatiofficial
-£
+
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
