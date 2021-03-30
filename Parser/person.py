@@ -97,7 +97,7 @@ class Posts(RequestableContent):
         return [Post(post['node']) for post in in_posts if 'accessibility_caption' in post['node']]
 
     @property
-    def posts(self):
+    def data(self):
         return self.__posts
 
     def _process_data(self, data: dict):
@@ -120,7 +120,7 @@ class Follow(RequestableContent):
         self.__followings = []
 
     @property
-    def followings(self) -> List[str]:
+    def data(self) -> List[str]:
         """Returns list of usernames"""
         return self.__followings
 
