@@ -56,3 +56,7 @@ dataset collection is cacheable. It means, that if you run parser with same fold
 
 ## Known issues
 Sometimes it is possible to see, that browser get stucked at the start with attemtion to load some local address.... in this case, please, restart session.
+
+### Changelist:
+- Greedy-parsr caches its state to continue on next run
+- Now greedy-parser avoids business accounts

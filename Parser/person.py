@@ -68,6 +68,7 @@ class Post:
     def __init__(self, post: dict):
         self.id                     = post['id']
         self.photo_url              = post['display_url']
+        self.is_video               = post['is_video']
         self.accessibility_caption  = str(post['accessibility_caption'])
         self.comment                = str(post['edge_media_to_caption']['edges'][0]['node']['text'] if len(post['edge_media_to_caption']['edges']) >= 1 else "")
         self.comment                = emoji.get_emoji_regexp().sub(r'',self.comment)

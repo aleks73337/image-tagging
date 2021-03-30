@@ -76,7 +76,8 @@ class GreedyParser(Base):
             return
 
         for post in _get_data(user.posts, self.__count_of_posts):
-            self.__process_post(post)
+            if not post.is_video:
+                self.__process_post(post)
 
         for username in _get_data(user.follow, self.__cont_of_following):
             if username not in self.__requested_users:
