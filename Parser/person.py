@@ -69,7 +69,7 @@ class Post:
         self.id                     = post['id']
         self.photo_url              = post['display_url']
         self.is_video               = post['is_video']
-        self.accessibility_caption  = str(post['accessibility_caption'])
+        self.accessibility_caption  = str(post['accessibility_caption'] if 'accessibility_caption' in post else "")
         self.comment                = str(post['edge_media_to_caption']['edges'][0]['node']['text'] if len(post['edge_media_to_caption']['edges']) >= 1 else "")
         self.comment                = emoji.get_emoji_regexp().sub(r'',self.comment)
 
@@ -95,7 +95,7 @@ class Posts(RequestableContent):
 
     def __process_posts(self, in_posts):
         #self._logger.debug(in_posts)
-        return [Post(post['node']) for post in in_posts if 'accessibility_caption' in post['node']]
+        return [Post(post['node']) for post in in_posts]
 
     @property
     def data(self):
@@ -174,7 +174,6 @@ class Person(Base):
                            user_json['edge_owner_to_timeline_media'])
 
         self.follow = Follow(self.id, self.__browser, self.followers_count)
-
 
     def __str__(self):
         return f'Person id {self.id} name {self.full_name} followers {self.followers_count} following {self.following_count}'
