@@ -58,4 +58,5 @@ class Browser(Base):
         return self
 
     def request(self, url : str):
+        self._logger.debug(f'Request: {url}')
         return self.__browser.request("get", url)

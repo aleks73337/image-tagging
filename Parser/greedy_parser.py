@@ -88,9 +88,13 @@ class GreedyParser(Base):
         if len(tags) < self.__min_tags_per_post:
             return
         
-        urllib.request.urlretrieve(post.photo_url, os.path.join(self.__folder, str(post.id)+'.jpg'))
-        self.__posts.append({'id': post.id, 'comment': post.comment, 'tags' : tags, 'accessibility_caption' : post.accessibility_caption})
-        self.__bar.update(1)
+        self._logger.debug(f'Try to save {post.photo_url}')
+        try:
+            urllib.request.urlretrieve(post.photo_url, os.path.join(self.__folder, str(post.id)+'.jpg'))
+            self.__posts.append({'id': post.id, 'comment': post.comment, 'tags' : tags, 'accessibility_caption' : post.accessibility_caption})
+            self.__bar.update(1)
+        except Exception as e:
+            self._logger.error(e)
 
     def __save_meta(self, index):
         self._logger.debug(f"Save... Index {index} Posts {len(self.__posts)} users {len(self.__requested_users)}")
@@ -127,7 +131,8 @@ if __name__ == "__main__":
     parser.add_argument('--min_tags_per_post', type=int, required=False, default=3)
     args = parser.parse_args(sys.argv[1:])
 
-    #global_config.logging_level = logging.DEBUG
+    global_config.logging_level = logging.DEBUG
+    global_config.kill_browser_after_end = False
     parser = GreedyParser(args.root_user, 
                           count_of_posts_per_profile=args.posts_per_profile, 
                           count_of_following_per_profile=args.following_per_profile,

@@ -151,7 +151,7 @@ class Person(Base):
 
         self._logger.debug(f"Status code {response.status_code}")
         if response.status_code != 200:
-            raise Exception(f"Invalid status code = {response.status_code}")
+            raise Exception(f"Invalid status code = {response.status_code} {'Most probably Spam. Need to wait' if response.status_code == 429 else ''}")
 
         dict = json.loads(response.text)
         try:
