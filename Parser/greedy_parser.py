@@ -30,7 +30,7 @@ class GreedyParser(Base):
                 count_of_following_per_profile : int = 100,
                 total_count_of_posts           : int = 500,
                 min_tags_per_post              : int =  1,
-                folder_to_save_data            : str = parent_dir+'/dataset'):
+                folder_to_save_data            : str = os.path.join(parent_dir, 'dataset')):
 
         super().__init__("GreedyParser")
 
@@ -94,16 +94,17 @@ class GreedyParser(Base):
 
     def __save_meta(self, index):
         self._logger.debug(f"Save... Index {index} Posts {len(self.__posts)} users {len(self.__requested_users)}")
-        json.dump({'meta': {'last_index': index, 'users': self.__requested_users, 'posts_count' : len(self.__posts)}, 'data': self.__posts},
-                open(self.__meta_file_path, 'w'),
-                indent=4)
+        with open(self.__meta_file_path, 'w') as file:
+            json.dump({'meta': {'last_index': index, 'users': self.__requested_users, 'posts_count' : len(self.__posts)}, 'data': self.__posts},
+                    file,
+                    indent=4)
     def __try_to_restore(self):
         self._logger.debug("Try to restore data...")
        
         if not os.path.exists(self.__meta_file_path):
             return 0
-        
-        data                    = json.load(open(self.__meta_file_path, 'r'))
+        with open(self.__meta_file_path, 'r') as file:
+            data                    = json.load(file)
         self.__requested_users  = data['meta']['users']
         self.__posts            = data['data']
         index                   = data['meta']['last_index']
@@ -119,7 +120,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('root_user')
-    parser.add_argument('--folder', type=str, required=False, default=parent_dir+'/dataset')
+    parser.add_argument('--folder', type=str, required=False, default=os.path.join(parent_dir, 'dataset'))
     parser.add_argument('--posts_per_profile', type=int, required=False, default=100)
     parser.add_argument('--following_per_profile', type=int, required=False, default=100)
     parser.add_argument('--total_count_of_posts', type=int, required=False, default=500)
