@@ -131,8 +131,8 @@ if __name__ == "__main__":
     parser.add_argument('--min_tags_per_post', type=int, required=False, default=3)
     args = parser.parse_args(sys.argv[1:])
 
-    global_config.logging_level = logging.DEBUG
-    global_config.kill_browser_after_end = False
+    # global_config.logging_level = logging.DEBUG
+    # global_config.kill_browser_after_end = False
     parser = GreedyParser(args.root_user, 
                           count_of_posts_per_profile=args.posts_per_profile, 
                           count_of_following_per_profile=args.following_per_profile,
