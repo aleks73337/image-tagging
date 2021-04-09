@@ -5,7 +5,6 @@ import json
 import re
 import logging
 from joblib import Parallel, delayed
-from multiprocessing import Pool
 
 def patch_http_connection_pool(**constructor_kwargs):
     from urllib3 import connectionpool, poolmanager
