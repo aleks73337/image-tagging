@@ -147,13 +147,23 @@ class Person(Base):
 
     def __request_base_info(self):
         self._logger.debug(f"Request base info for {self.login}")
-        response = self.__browser.request(f"{instagram_url}/{self.login}/?__a=1")
+        request_str = f"{instagram_url}/{self.login}/?__a=1"
+        response = self.__browser.request(request_str)
 
         self._logger.debug(f"Status code {response.status_code}")
+        if response.status_code == 404:
+            self.is_private = True
+            return
+            
         if response.status_code != 200:
-            raise Exception(f"Invalid status code = {response.status_code} {'Most probably Spam. Need to wait' if response.status_code == 429 else ''}")
+            raise Exception(f"Invalid status code = {response.status_code} {'Most probably Spam. Need to wait' if response.status_code == 429 else ''} Request {request_str}")
 
         dict = json.loads(response.text)
+        if not dict:
+            self._logger.exception(f'Dict : {dict} login {self.login}')
+            self.is_private = True
+            return
+            
         try:
             user_json = dict['graphql']['user']
         except:

@@ -98,10 +98,11 @@ class GreedyParser(Base):
 
     def __process_user_name(self, username : str):
         self._logger.debug(f'Request {username}')
-        user = self.__parser.request_person(username)
         self.__bar.set_description(f'Current user is {username}')
+        
+        user = self.__parser.request_person(username)
 
-        if user.is_business_account or user.is_private:
+        if user.is_private or user.is_business_account:
             return False
 
         objects = self.__process_user_parallel([delayed(_get_data)(user.posts, self.__count_of_posts), 
