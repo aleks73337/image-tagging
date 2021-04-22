@@ -3,3 +3,5 @@ __pycache__
 Parser/Selenium
 Parser/credentials.json
 Parser/temp.json
+.ipynb_checkpoints/
+Tests/.ipynb_checkpoints/
