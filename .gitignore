@@ -5,3 +5,4 @@ Parser/credentials.json
 Parser/temp.json
 .ipynb_checkpoints/
 Tests/.ipynb_checkpoints/
+*.zip
