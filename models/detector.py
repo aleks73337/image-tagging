@@ -4,8 +4,6 @@ import numpy as np
 from PIL import Image
 from PIL import ImageOps
 
-if tf.__version__ != "2.4.1":
-    raise Exception("Wrong TF version. Run: pip3 install tensorflow-gpu==2.4.1")
 
 class Detector:
     def __init__(self):
