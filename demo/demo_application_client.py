@@ -29,8 +29,10 @@ if img_data is not None:
     result = ""
     for i in range(0, len(tags)):
         tag = tags[i]
-        checked = cols[i % 4].checkbox("#" + tag, key=tag)
+        if not tag.startswith("#"):
+            tag = "#" + tag
+        checked = cols[i % 4].checkbox(tag, key=tag)
         if checked:
-            result += "#" + tag + " "
+            result += tag
 
     st.text_area("", value=result)

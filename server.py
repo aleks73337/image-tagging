@@ -1,7 +1,12 @@
 from kafka import KafkaConsumer
 from kafka import KafkaProducer
+from models.detector import Detector
+from models.place_classifier import PlaceClassifier
+from models.features_extractor import FeatureExtractor
+from models.closest_pictures_model import ClosestPicturesModel
+from PIL import Image
 import datetime
-import config
+import demo.config as config
 import json
 import numpy as np
 
@@ -28,14 +33,38 @@ consumer = KafkaConsumer(
 print(consumer)
 print(producer)
 
+placer = PlaceClassifier()
+print(placer)
+
+feacher = FeatureExtractor()
+print(feacher)
+
+closest = ClosestPicturesModel()
+print(closest)
+
+detector = Detector()
+print(detector)
+
+def get_places(arr):
+    result, _ = placer.predict(np.uint8(arr))
+    return [key for key in result]
+
 for msg in consumer:
     resp = json.loads(msg.value)
     data = {}
     data['hash'] = resp['hash']
     arr = np.array(resp['img'])
 
-    # todo: add model code here
     print(arr.shape)
-    data['result'] = ['previq', 'vtoroi', 'treti', 'chetv', 'pyat']
+
+    img = Image.fromarray(np.uint8(arr))
+
+    features = feacher.get_features(img)
+    features = features.reshape(1, -1)
+    result  = closest.predict(features)[0]
+    result += detector.get_objects_on_img(img)
+    result += get_places(arr)
+    print(result)
+    data['result'] = result
 
     producer.send('{}-response'.format(config.username), json.dumps(data))
