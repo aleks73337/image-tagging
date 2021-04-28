@@ -27,6 +27,13 @@ if img_data is not None:
 
     cols = st.beta_columns(4)
     result = ""
+
+    new_tags = []
+    for t in tags:
+        new_tags += t.split('/')
+    tags = new_tags
+    tags = [t.replace('_', '').replace(' ', '').lower() for t in tags]
+    tags = list(dict.fromkeys(tags))
     for i in range(0, len(tags)):
         tag = tags[i]
         if not tag.startswith("#"):
