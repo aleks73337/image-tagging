@@ -36,10 +36,11 @@ if img_data is not None:
     tags = list(dict.fromkeys(tags))
     for i in range(0, len(tags)):
         tag = tags[i]
-        if not tag.startswith("#"):
-            tag = "#" + tag
+        if not tag.startswith('#'):
+            tag = '#' + tag
         checked = cols[i % 4].checkbox(tag, key=tag)
         if checked:
-            result += tag
+            result += tag + ' '
 
+    result = result[:-1]
     st.text_area("", value=result)
