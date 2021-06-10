@@ -3,7 +3,6 @@ import sys, importlib
 import time
 
 from PIL import Image
-from pathlib import Path
 from request import Request
 
 hash_funcs={'builtins.method_descriptor' : lambda _: None,}
